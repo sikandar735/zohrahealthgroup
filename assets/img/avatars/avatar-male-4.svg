@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgMale4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="50%" stop-color="#0F4C81"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="coatMale4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <clipPath id="circleClip4">
+      <rect x="0" y="0" width="400" height="400"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip4)">
+    <!-- Background -->
+    <rect width="400" height="400" fill="url(#bgMale4)"/>
+    <circle cx="200" cy="175" r="145" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+    <circle cx="200" cy="175" r="110" fill="rgba(16,185,129,0.08)"/>
+
+    <!-- Male Physician Shoulders & White Lab Coat -->
+    <path d="M 65,400 C 65,305 120,272 200,272 C 280,272 335,305 335,400 Z" fill="url(#coatMale4)"/>
+    <!-- Inner Navy Scrubs / Shirt & Tie -->
+    <path d="M 156,272 L 200,362 L 244,272 Z" fill="#0F2744"/>
+    <path d="M 193,290 L 207,290 L 211,355 L 200,368 L 189,355 Z" fill="#0D9488"/>
+    <!-- White Coat Lapels -->
+    <path d="M 154,272 L 128,342 L 178,366 L 195,342 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <path d="M 246,272 L 272,342 L 222,366 L 205,342 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Stethoscope -->
+    <path d="M 148,274 C 144,322 162,348 182,356" stroke="#1E293B" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 252,274 C 256,322 236,344 228,352" stroke="#1E293B" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <circle cx="228" cy="354" r="11" fill="#64748B" stroke="#0F172A" stroke-width="3"/>
+    <circle cx="228" cy="354" r="4.5" fill="#F8FAFC"/>
+
+    <!-- Neck -->
+    <rect x="176" y="230" width="48" height="54" rx="18" fill="#E0B594"/>
+    <path d="M 176,248 Q 200,264 224,248 L 224,268 Q 200,282 176,268 Z" fill="#C99B78" opacity="0.5"/>
+
+    <!-- Ears -->
+    <ellipse cx="138" cy="178" rx="11" ry="18" fill="#C99B78"/>
+    <ellipse cx="262" cy="178" rx="11" ry="18" fill="#C99B78"/>
+
+    <!-- Male Head Structure -->
+    <path d="M 142,145 C 142,102 258,102 258,145 L 256,195 C 254,230 228,252 200,252 C 172,252 146,230 144,195 Z" fill="#E8BE9E"/>
+
+    <!-- Well-Groomed Short Beard / Jawline Shadow (Distinctive Male Physician Look) -->
+    <path d="M 145,192 C 147,226 172,250 200,250 C 228,250 253,226 255,192 C 252,208 238,228 200,228 C 162,228 148,208 145,192 Z" fill="#1E293B" opacity="0.22"/>
+
+    <!-- Masculine Eyebrows -->
+    <path d="M 160,158 Q 174,153 186,157" stroke="#0F172A" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M 214,157 Q 226,153 240,158" stroke="#0F172A" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <!-- Eyes -->
+    <circle cx="174" cy="171" r="5" fill="#0F172A"/>
+    <circle cx="226" cy="171" r="5" fill="#0F172A"/>
+    <!-- Nose -->
+    <path d="M 200,168 L 197,196 L 205,198" stroke="#C09270" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Smile -->
+    <path d="M 184,215 Q 200,225 216,215" stroke="#8C5D3E" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Male Short Cropped Hair -->
+    <path d="M 139,164 C 136,128 150,96 200,96 C 250,96 264,128 261,164 C 256,142 246,126 232,122 C 210,126 190,126 168,122 C 154,126 144,142 139,164 Z" fill="#0F172A"/>
+
+    <!-- Top Badge Label -->
+    <rect x="20" y="20" width="166" height="30" rx="15" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <circle cx="36" cy="35" r="4.5" fill="#34D399"/>
+    <text x="48" y="39" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.6px">HEALTH DIRECTOR (M)</text>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgFemale2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2744"/>
+      <stop offset="50%" stop-color="#0369A1"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="coatFemale2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <clipPath id="circleClip2">
+      <rect x="0" y="0" width="400" height="400"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip2)">
+    <!-- Background -->
+    <rect width="400" height="400" fill="url(#bgFemale2)"/>
+    <circle cx="200" cy="175" r="145" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <circle cx="200" cy="175" r="110" fill="rgba(45,212,191,0.08)"/>
+
+    <!-- Female Long Styled Hair (Back Layer) -->
+    <path d="M 122,155 C 115,210 112,265 128,295 L 272,295 C 288,265 285,210 278,155 C 272,102 240,86 200,86 C 160,86 128,102 122,155 Z" fill="#1E293B"/>
+
+    <!-- Female Physician / CEO Shoulders & Medical Coat -->
+    <path d="M 72,400 C 72,308 124,274 200,274 C 276,274 328,308 328,400 Z" fill="url(#coatFemale2)"/>
+    <!-- Inner Teal Executive Blouse -->
+    <path d="M 160,274 Q 200,335 240,274 L 222,400 L 178,400 Z" fill="#0284C7"/>
+    <!-- White Coat Lapels -->
+    <path d="M 158,274 L 138,348 L 182,368 L 194,335 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+    <path d="M 242,274 L 262,348 L 218,368 L 206,335 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- Stethoscope around neck -->
+    <path d="M 152,276 C 148,325 168,350 185,356" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <path d="M 248,276 C 252,325 232,345 225,352" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <circle cx="225" cy="354" r="10" fill="#94A3B8" stroke="#0F172A" stroke-width="3"/>
+    <circle cx="225" cy="354" r="4" fill="#E2E8F0"/>
+
+    <!-- Slender Neck -->
+    <rect x="181" y="228" width="38" height="55" rx="18" fill="#F3CFB3"/>
+    <path d="M 181,245 Q 200,258 219,245 L 219,262 Q 200,274 181,262 Z" fill="#DFB290" opacity="0.45"/>
+
+    <!-- Pearl Earrings -->
+    <circle cx="143" cy="192" r="4.5" fill="#F8FAFC"/>
+    <circle cx="257" cy="192" r="4.5" fill="#F8FAFC"/>
+
+    <!-- Female Oval Face Contour -->
+    <path d="M 148,148 C 148,108 252,108 252,148 C 252,198 232,246 200,248 C 168,246 148,198 148,148 Z" fill="#F7D7BE"/>
+
+    <!-- Arched Feminine Eyebrows -->
+    <path d="M 162,158 Q 175,150 187,156" stroke="#1E293B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <path d="M 213,156 Q 225,150 238,158" stroke="#1E293B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <!-- Eyes with subtle lashes -->
+    <circle cx="175" cy="171" r="4.8" fill="#0F172A"/>
+    <path d="M 167,168 Q 175,163 183,169" stroke="#0F172A" stroke-width="2" fill="none"/>
+    <circle cx="225" cy="171" r="4.8" fill="#0F172A"/>
+    <path d="M 217,169 Q 225,163 233,168" stroke="#0F172A" stroke-width="2" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M 200,170 L 198,194 L 204,196" stroke="#D5A684" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Warm Smile -->
+    <path d="M 185,213 Q 200,224 215,213" stroke="#C26D68" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Female Front Swept Hair Bangs -->
+    <path d="M 144,168 C 142,126 170,104 205,104 C 235,104 256,128 256,168 C 246,142 224,126 196,124 C 172,126 154,144 144,168 Z" fill="#1E293B"/>
+
+    <!-- Top Badge Label -->
+    <rect x="20" y="20" width="110" height="30" rx="15" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <circle cx="36" cy="35" r="4.5" fill="#2DD4BF"/>
+    <text x="48" y="39" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.6px">CEO (F)</text>
+  </g>
+</svg>

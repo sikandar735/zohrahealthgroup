@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgClin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2744"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgClin)"/>
+  <circle cx="200" cy="200" r="140" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+  <!-- Minimalist Medical Clinician Silhouette & Cross -->
+  <circle cx="200" cy="145" r="46" fill="#F8FAFC"/>
+  <path d="M 110,315 C 110,252 148,220 200,220 C 252,220 290,252 290,315 Z" fill="#F8FAFC"/>
+  <!-- Stethoscope / Medical Emblem -->
+  <circle cx="200" cy="272" r="24" fill="url(#iconGrad)"/>
+  <path d="M 200,259 L 200,285 M 187,272 L 213,272" stroke="#0F2744" stroke-width="5" stroke-linecap="round"/>
+</svg>

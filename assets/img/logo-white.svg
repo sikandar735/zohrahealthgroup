@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 110" width="220" height="52">
+  <defs>
+    <linearGradient id="emblem_w1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="emblem_w2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Medical Cross / Shield Emblem -->
+  <g transform="translate(10, 8)">
+    <rect x="0" y="0" width="94" height="94" rx="24" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="2"/>
+    <g transform="translate(47, 47)">
+      <path d="M 0,-34 C 14,-34 22,-20 18,-6 C 14,0 0,0 0,0 C 0,0 -14,0 -18,-6 C -22,-20 -14,-34 0,-34 Z" fill="url(#emblem_w1)"/>
+      <path d="M 34,0 C 34,14 20,22 6,18 C 0,14 0,0 0,0 C 0,0 0,-14 6,-18 C 20,-22 34,-14 34,0 Z" fill="url(#emblem_w2)"/>
+      <path d="M 0,34 C -14,34 -22,20 -18,6 C -14,0 0,0 0,0 C 0,0 14,0 18,6 C 22,20 14,34 0,34 Z" fill="url(#emblem_w1)"/>
+      <path d="M -34,0 C -34,-14 -20,-22 -6,-18 C 0,-14 0,0 0,0 C 0,0 0,14 -6,18 C -20,22 -34,14 -34,0 Z" fill="url(#emblem_w2)"/>
+      <circle cx="0" cy="0" r="7" fill="#FDE047"/>
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(122, 12)">
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5px">ZOHRAN</text>
+    <text x="0" y="68" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#38BDF8" letter-spacing="3.2px">HEALTH GROUP</text>
+    <text x="0" y="86" font-family="'Inter', sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" letter-spacing="0.8px">PATIENT-CENTRED MEDICAL NETWORK • USA &amp; CANADA</text>
+  </g>
+</svg>
