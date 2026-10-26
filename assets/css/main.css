@@ -8981,7 +8981,7 @@ section.services-stack-section {
 
 
 /*--------------------------------------------------------------
-# Zohran Health Group Custom Enhancements & Show More Controls
+# Zohra Health Group Custom Enhancements & Show More Controls
 --------------------------------------------------------------*/
 html,
 body {
@@ -9709,4 +9709,142 @@ body {
 .badge-pill.stage-advanced {
   background: rgba(109, 40, 217, 0.12) !important;
   color: #6d28d9 !important;
+}
+
+/*--------------------------------------------------------------
+# Zohra Health Group Executive Placement & Organizational Architecture
+--------------------------------------------------------------*/
+.zhg-org-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 28px 0 14px;
+}
+
+.zhg-org-divider:first-of-type {
+  margin-top: 8px;
+}
+
+.zhg-org-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #0b2545 0%, #0284c7 100%);
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(11, 37, 69, 0.15);
+  white-space: nowrap;
+}
+
+.zhg-org-pill.founder-pill {
+  background: linear-gradient(135deg, #0b2545 0%, #0369a1 55%, #d97706 100%);
+}
+
+.zhg-org-pill.board-pill {
+  background: linear-gradient(135deg, #0b2545 0%, #0284c7 100%);
+}
+
+.zhg-org-pill.directors-pill {
+  background: linear-gradient(135deg, #0f4c81 0%, #0d9488 100%);
+}
+
+.zhg-org-pill.team-pill {
+  background: linear-gradient(135deg, #1e293b 0%, #0284c7 100%);
+}
+
+.zhg-org-line {
+  flex: 1 1 auto;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(2, 132, 199, 0.35) 0%, rgba(11, 37, 69, 0.05) 100%);
+}
+
+.find-a-doctor .clinician-row.founder-crown {
+  border: 2px solid rgba(2, 132, 199, 0.38);
+  border-left: 6px solid #f59e0b;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%);
+  box-shadow: 0 12px 32px rgba(11, 37, 69, 0.09);
+}
+
+.find-a-doctor .clinician-row.board-tier {
+  border-top: 3px solid #0284c7;
+}
+
+.find-a-doctor .clinician-row.director-tier {
+  border-top: 3px solid #0d9488;
+}
+
+.doctors .sh-doctor-card.founder-crown-card {
+  border: 2px solid rgba(245, 158, 11, 0.45);
+  border-top: 4px solid #f59e0b;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  box-shadow: 0 10px 28px rgba(11, 37, 69, 0.09);
+}
+
+.doctors .sh-doctor-card.board-card {
+  border-top: 3px solid #0284c7;
+}
+
+.doctors .sh-doctor-card.health-lead-card {
+  border-top: 3px solid #0d9488;
+}
+
+.doctors .sh-doctor-card.team-mgmt-card {
+  border-top: 3px solid #1e3a8a;
+}
+
+.zhg-team-pill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.zhg-team-unit {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px 18px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(11, 37, 69, 0.1);
+  border-left: 4px solid #0284c7;
+  box-shadow: 0 4px 14px rgba(11, 37, 69, 0.04);
+  transition: all 0.22s ease;
+}
+
+.zhg-team-unit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(11, 37, 69, 0.09);
+  border-left-color: #0d9488;
+}
+
+.zhg-team-unit .unit-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(2, 132, 199, 0.1);
+  color: #0284c7;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.zhg-team-unit h5 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0 0 4px;
+}
+
+.zhg-team-unit p {
+  font-size: 12.5px;
+  color: #475569;
+  margin: 0;
+  line-height: 1.45;
 }

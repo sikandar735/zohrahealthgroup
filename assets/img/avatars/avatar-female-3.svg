@@ -5,66 +5,37 @@
       <stop offset="55%" stop-color="#0284C7"/>
       <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
-    <linearGradient id="blazerFemale3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0F2744"/>
-      <stop offset="100%" stop-color="#09192D"/>
-    </linearGradient>
     <clipPath id="circleClip3">
       <rect x="0" y="0" width="400" height="400"/>
     </clipPath>
   </defs>
-
   <g clip-path="url(#circleClip3)">
-    <!-- Background -->
     <rect width="400" height="400" fill="url(#bgFemale3)"/>
     <circle cx="200" cy="175" r="145" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
     <circle cx="200" cy="175" r="110" fill="rgba(255,255,255,0.06)"/>
-
-    <!-- Female Shoulder-Length Wavy Hair (Back Layer) -->
     <path d="M 126,150 C 116,198 118,255 135,282 L 265,282 C 282,255 284,198 274,150 C 266,100 238,86 200,86 C 162,86 134,100 126,150 Z" fill="#291D18"/>
-
-    <!-- Female Executive Navy Blazer & White Clinical Coat Overlay -->
     <path d="M 72,400 C 72,308 124,274 200,274 C 276,274 328,308 328,400 Z" fill="#FFFFFF"/>
-    <!-- Inner Coral/Teal Silk Top -->
     <path d="M 162,274 Q 200,332 238,274 L 220,400 L 180,400 Z" fill="#0D9488"/>
-    <!-- Coat Collar -->
     <path d="M 158,274 L 136,346 L 182,366 L 194,334 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
     <path d="M 242,274 L 264,346 L 218,366 L 206,334 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
-    <!-- Medical Cross Pin -->
     <circle cx="246" cy="326" r="7" fill="#0284C7"/>
     <path d="M 246,322 L 246,330 M 242,326 L 250,326" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
-
-    <!-- Slender Neck -->
     <rect x="181" y="228" width="38" height="55" rx="18" fill="#F1C9A8"/>
     <path d="M 181,245 Q 200,258 219,245 L 219,262 Q 200,274 181,262 Z" fill="#DBA984" opacity="0.45"/>
-
-    <!-- Gold Stud Earrings -->
     <circle cx="144" cy="192" r="4.5" fill="#FBBF24"/>
     <circle cx="256" cy="192" r="4.5" fill="#FBBF24"/>
-
-    <!-- Female Oval Face Contour -->
     <path d="M 148,148 C 148,108 252,108 252,148 C 252,198 232,246 200,248 C 168,246 148,198 148,148 Z" fill="#F5D2B5"/>
-
-    <!-- Arched Feminine Eyebrows -->
     <path d="M 162,158 Q 175,150 187,156" stroke="#291D18" stroke-width="3.2" stroke-linecap="round" fill="none"/>
     <path d="M 213,156 Q 225,150 238,158" stroke="#291D18" stroke-width="3.2" stroke-linecap="round" fill="none"/>
-    <!-- Eyes -->
     <circle cx="175" cy="171" r="4.8" fill="#1E293B"/>
     <path d="M 167,168 Q 175,163 183,169" stroke="#1E293B" stroke-width="2" fill="none"/>
     <circle cx="225" cy="171" r="4.8" fill="#1E293B"/>
     <path d="M 217,169 Q 225,163 233,168" stroke="#1E293B" stroke-width="2" fill="none"/>
-
-    <!-- Nose -->
     <path d="M 200,170 L 198,194 L 204,196" stroke="#D19E7A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
-    <!-- Warm Smile -->
     <path d="M 185,213 Q 200,224 215,213" stroke="#B96560" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-
-    <!-- Female Center-Parted Hair Crown -->
     <path d="M 144,166 C 142,122 172,102 200,102 C 228,102 258,122 256,166 C 246,138 220,122 200,118 C 180,122 154,138 144,166 Z" fill="#291D18"/>
-
-    <!-- Top Badge Label -->
-    <rect x="20" y="20" width="132" height="30" rx="15" fill="rgba(15, 23, 42, 0.65)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <rect x="20" y="20" width="152" height="30" rx="15" fill="rgba(15, 23, 42, 0.72)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1"/>
     <circle cx="36" cy="35" r="4.5" fill="#38BDF8"/>
-    <text x="48" y="39" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.6px">DIRECTOR (F)</text>
+    <text x="48" y="39" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.6px">BOARD DIRECTOR</text>
   </g>
 </svg>

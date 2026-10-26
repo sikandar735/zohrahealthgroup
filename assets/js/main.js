@@ -231,7 +231,7 @@
 
 
 /**
- * Zohran Health Group - Interactive "Show More" Toggles & Department Stage Filter
+ * Zohra Health Group - Interactive "Show More" Toggles & Department Stage Filter
  */
 document.addEventListener('DOMContentLoaded', function() {
   // Generic Show More / Show Less Toggle Buttons

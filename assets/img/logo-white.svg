@@ -10,7 +10,6 @@
     </linearGradient>
   </defs>
 
-  <!-- Medical Cross / Shield Emblem -->
   <g transform="translate(10, 8)">
     <rect x="0" y="0" width="94" height="94" rx="24" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="2"/>
     <g transform="translate(47, 47)">
@@ -22,9 +21,8 @@
     </g>
   </g>
 
-  <!-- Typography -->
   <g transform="translate(122, 12)">
-    <text x="0" y="44" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5px">ZOHRAN</text>
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="35" font-weight="800" fill="#FFFFFF" letter-spacing="0.5px">ZOHRA</text>
     <text x="0" y="68" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="14" font-weight="700" fill="#38BDF8" letter-spacing="3.2px">HEALTH GROUP</text>
     <text x="0" y="86" font-family="'Inter', sans-serif" font-size="9.5" font-weight="600" fill="#94A3B8" letter-spacing="0.8px">PATIENT-CENTRED MEDICAL NETWORK • USA &amp; CANADA</text>
   </g>
