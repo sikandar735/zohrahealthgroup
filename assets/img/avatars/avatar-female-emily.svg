@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgEmily" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="55%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <clipPath id="clipEmily">
+      <rect x="0" y="0" width="400" height="400"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clipEmily)">
+    <rect width="400" height="400" fill="url(#bgEmily)"/>
+    <circle cx="200" cy="175" r="145" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+    <circle cx="200" cy="175" r="110" fill="rgba(45,212,191,0.07)"/>
+    <path d="M 124,148 C 114,200 116,258 134,286 L 266,286 C 284,258 286,200 276,148 C 268,98 238,84 200,84 C 162,84 132,98 124,148 Z" fill="#3B2314"/>
+    <path d="M 72,400 C 72,308 124,274 200,274 C 276,274 328,308 328,400 Z" fill="#0F172A"/>
+    <path d="M 162,274 Q 200,332 238,274 L 220,400 L 180,400 Z" fill="#F8FAFC"/>
+    <path d="M 158,274 L 136,346 L 182,366 L 194,334 Z" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <path d="M 242,274 L 264,346 L 218,366 L 206,334 Z" fill="#1E293B" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="246" cy="326" r="6" fill="#38BDF8"/>
+    <rect x="181" y="228" width="38" height="55" rx="18" fill="#F3D0B5"/>
+    <path d="M 181,245 Q 200,258 219,245 L 219,262 Q 200,274 181,262 Z" fill="#DFB290" opacity="0.45"/>
+    <circle cx="144" cy="192" r="4.5" fill="#38BDF8"/>
+    <circle cx="256" cy="192" r="4.5" fill="#38BDF8"/>
+    <path d="M 148,148 C 148,108 252,108 252,148 C 252,198 232,246 200,248 C 168,246 148,198 148,148 Z" fill="#F7D9C1"/>
+    <path d="M 162,158 Q 175,150 187,156" stroke="#3B2314" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <path d="M 213,156 Q 225,150 238,158" stroke="#3B2314" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+    <circle cx="175" cy="171" r="4.8" fill="#0F172A"/>
+    <path d="M 167,168 Q 175,163 183,169" stroke="#0F172A" stroke-width="2" fill="none"/>
+    <circle cx="225" cy="171" r="4.8" fill="#0F172A"/>
+    <path d="M 217,169 Q 225,163 233,168" stroke="#0F172A" stroke-width="2" fill="none"/>
+    <path d="M 200,170 L 198,194 L 204,196" stroke="#D19E7A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M 185,213 Q 200,224 215,213" stroke="#C26D68" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M 144,166 C 142,122 172,102 200,102 C 228,102 258,122 256,166 C 246,138 220,122 200,118 C 180,122 154,138 144,166 Z" fill="#3B2314"/>
+    <rect x="20" y="20" width="152" height="30" rx="15" fill="rgba(15, 23, 42, 0.72)" stroke="rgba(45, 212, 191, 0.35)" stroke-width="1"/>
+    <circle cx="36" cy="35" r="4.5" fill="#2DD4BF"/>
+    <text x="48" y="39" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF" letter-spacing="0.6px">BOARD DIRECTOR</text>
+  </g>
+</svg>
