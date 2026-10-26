@@ -8993,11 +8993,18 @@ body {
   width: 100%;
   left: 0;
   right: 0;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  transform: none !important;
+  filter: none !important;
 }
 
 .header .header-container {
   background: rgba(255, 255, 255, 0.98);
-  backdrop-filter: blur(12px);
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  transform: none !important;
+  filter: none !important;
   border: 1px solid rgba(11, 37, 69, 0.09);
   border-radius: 12px;
   padding: 8px 18px;
@@ -9172,6 +9179,60 @@ body {
     justify-content: center;
     width: 30px;
     height: 30px;
+    cursor: pointer;
+  }
+
+  body.mobile-nav-active {
+    overflow: hidden !important;
+  }
+
+  body.mobile-nav-active .header .navmenu {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(11, 37, 69, 0.88) !important;
+    z-index: 9997 !important;
+    display: block !important;
+    overflow: hidden !important;
+  }
+
+  body.mobile-nav-active .header .navmenu > ul {
+    display: block !important;
+    position: fixed !important;
+    top: 68px !important;
+    left: 16px !important;
+    right: 16px !important;
+    bottom: 20px !important;
+    max-height: calc(100vh - 88px) !important;
+    background-color: #ffffff !important;
+    border-radius: 14px !important;
+    padding: 14px 0 !important;
+    margin: 0 !important;
+    overflow-y: auto !important;
+    z-index: 9998 !important;
+    box-shadow: 0 20px 50px rgba(11, 37, 69, 0.35) !important;
+    border: 1px solid rgba(2, 132, 199, 0.16) !important;
+  }
+
+  body.mobile-nav-active .mobile-nav-toggle {
+    position: fixed !important;
+    top: 18px !important;
+    right: 20px !important;
+    z-index: 10000 !important;
+    color: #ffffff !important;
+    font-size: 32px !important;
+    width: 40px !important;
+    height: 40px !important;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 50%;
+  }
+
+  body.mobile-nav-active .navmenu .dropdown > .dropdown-active {
+    display: block !important;
   }
 }
 
@@ -9207,6 +9268,14 @@ body {
     font-size: 24px !important;
     width: 26px;
     height: 26px;
+  }
+
+  body.mobile-nav-active .mobile-nav-toggle {
+    font-size: 30px !important;
+    width: 38px !important;
+    height: 38px !important;
+    top: 14px !important;
+    right: 16px !important;
   }
 
   .hero {
