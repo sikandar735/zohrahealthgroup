@@ -8781,12 +8781,12 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Sticky Stacking Services Section (PrebuiltUI Integration)
+# Sticky Stacking Services Section (PrebuiltUI MediCare Integration)
 --------------------------------------------------------------*/
 .services-stack-section,
 section.services-stack-section {
-  padding: 80px 0 120px;
-  background-color: var(--background-color);
+  padding: 80px 16px 128px;
+  background-color: #ffffff;
   overflow: visible !important;
   position: relative;
 }
@@ -8794,7 +8794,7 @@ section.services-stack-section {
 .services-stack-header {
   text-align: center;
   max-width: 720px;
-  margin: 0 auto 50px;
+  margin: 0 auto 48px;
 }
 
 .services-stack-header .badge-subtitle {
@@ -8811,123 +8811,147 @@ section.services-stack-section {
 }
 
 .services-stack-header h2 {
-  font-size: 2.6rem;
-  font-weight: 700;
-  color: var(--heading-color, #17325b);
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #18181b;
   line-height: 1.25;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
   letter-spacing: -0.02em;
 }
 
 .services-stack-header p {
-  color: #64748b;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  color: #71717a;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  max-width: 620px;
+  margin: 0 auto;
 }
 
 .services-stack-container {
   display: flex;
   flex-direction: column;
-  gap: 36px;
+  gap: 32px;
   position: relative;
-  max-width: 1140px;
-  margin: 0 auto;
+  max-width: 1152px;
+  margin: 48px auto 0;
+}
+
+/* Ensure expandable Show More container participates directly in the sticky flex stack */
+.zhg-extra-block.services-stack-extra.is-visible {
+  display: contents;
 }
 
 .sticky-service-card {
   position: -webkit-sticky;
   position: sticky;
-  border-radius: 28px;
-  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 64px;
+  border-radius: 24px;
+  padding: 16px 16px 16px 32px;
   background-color: #f8fafc;
-  border: 1px solid #e2e8f0;
-  box-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.04);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-  will-change: transform, top;
+  border: 1px solid rgba(226, 232, 240, 0.75);
+  box-shadow: 0 -6px 24px -6px rgba(15, 23, 42, 0.06), 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+  transition: box-shadow 0.3s ease;
+  will-change: top;
 }
 
 .sticky-service-card.card-purple {
-  background-color: #f5f3ff;
-  border-color: #e9d5ff;
+  background-color: #f3e8ff;
+  border-color: rgba(233, 213, 255, 0.85);
 }
 
 .sticky-service-card:hover {
-  box-shadow: 0 20px 45px -10px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 -8px 28px -6px rgba(15, 23, 42, 0.09), 0 18px 36px -8px rgba(15, 23, 42, 0.09);
+}
+
+.sticky-service-card .sticky-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1 1 50%;
+  padding: 4px 0 12px;
 }
 
 .sticky-service-card .service-pill-badge {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
   background: #ffffff;
-  color: #1e293b;
-  font-weight: 600;
+  color: #27272a;
+  font-weight: 500;
   font-size: 0.875rem;
-  padding: 6px 18px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  border: 1px solid #e2e8f0;
-  margin-bottom: 20px;
+  line-height: 1.25rem;
+  padding: 4px 14px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  margin: 0;
 }
 
 .sticky-service-card .service-headline {
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--heading-color, #17325b);
-  line-height: 1.25;
-  margin-bottom: 14px;
-  letter-spacing: -0.02em;
+  font-size: 1.875rem;
+  font-weight: 500;
+  color: #18181b;
+  line-height: 2.25rem;
+  margin: 24px 0 0 0;
+  letter-spacing: -0.015em;
 }
 
 .sticky-service-card .service-lead {
-  color: #64748b;
-  font-size: 0.95rem;
-  line-height: 1.65;
-  margin-bottom: 24px;
+  color: #71717a;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  margin: 16px 0 0 0;
+  max-width: 480px;
 }
 
 .sticky-service-card .service-features-list {
   list-style: none;
   padding: 0;
-  margin: 0 0 28px 0;
+  margin: 24px 0 0 0;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 .sticky-service-card .service-features-list li {
   display: flex;
   align-items: center;
-  gap: 12px;
-  color: #475569;
-  font-size: 0.925rem;
-  font-weight: 500;
+  gap: 10px;
+  color: #71717a;
+  font-size: 0.875rem;
+  line-height: 1.35;
 }
 
 .sticky-service-card .service-features-list li svg,
 .sticky-service-card .service-features-list li i {
   width: 20px;
   height: 20px;
-  color: var(--accent-color, #0ea5e9);
+  color: #0ea5e9;
   flex-shrink: 0;
 }
 
 .sticky-service-card .service-actions {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 24px;
 }
 
 .sticky-service-card .btn-service-action {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  background-color: var(--accent-color, #0ea5e9);
+  background-color: #0ea5e9;
   color: #ffffff;
-  padding: 10px 22px;
+  padding: 9px 20px;
   border-radius: 10px;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 0.875rem;
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -8938,14 +8962,34 @@ section.services-stack-section {
   transform: translateY(-1px);
 }
 
+.sticky-service-card .btn-service-secondary {
+  display: inline-flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #3f3f46;
+  border: 1px solid #d4d4d8;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.sticky-service-card .btn-service-secondary:hover {
+  background-color: #ffffff;
+  color: #18181b;
+  border-color: #a1a1aa;
+}
+
 .sticky-service-card .service-image-box {
   position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 360px;
-  border-radius: 20px;
+  width: 50%;
+  max-width: 579px;
+  height: 448px;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+  flex-shrink: 0;
 }
 
 .sticky-service-card .service-image-box img {
@@ -8957,22 +9001,30 @@ section.services-stack-section {
 
 @media (max-width: 991.98px) {
   .sticky-service-card {
-    padding: 28px 24px;
+    gap: 32px;
+    padding: 16px 16px 16px 24px;
   }
   .sticky-service-card .service-headline {
-    font-size: 1.65rem;
+    font-size: 1.55rem;
+    line-height: 1.95rem;
+    margin-top: 18px;
   }
   .sticky-service-card .service-image-box {
-    min-height: 280px;
-    margin-top: 24px;
+    width: 46%;
+    height: 390px;
   }
 }
 
 @media (max-width: 767.98px) {
   .sticky-service-card {
-    position: relative !important;
-    top: 0 !important;
-    margin-bottom: 20px;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+  }
+  .sticky-service-card .service-image-box {
+    width: 100%;
+    max-width: 100%;
+    height: 260px;
   }
   .services-stack-header h2 {
     font-size: 1.85rem;
@@ -8981,11 +9033,11 @@ section.services-stack-section {
 
 
 /*--------------------------------------------------------------
-# Zohra Health Group Custom Enhancements & Show More Controls
+# Zohran Health Group Custom Enhancements & Show More Controls
 --------------------------------------------------------------*/
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
 }
 
@@ -9712,7 +9764,7 @@ body {
 }
 
 /*--------------------------------------------------------------
-# Zohra Health Group Executive Placement & Organizational Architecture
+# Zohran Health Group Executive Placement & Organizational Architecture
 --------------------------------------------------------------*/
 .zhg-org-divider {
   display: flex;
