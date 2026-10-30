@@ -9073,8 +9073,8 @@ body {
 }
 
 .header .logo img {
-  height: 40px !important;
-  max-height: 40px !important;
+  height: 60px !important;
+  max-height: 60px !important;
   width: auto !important;
   min-width: 0 !important;
   margin-right: 0 !important;
@@ -9155,8 +9155,8 @@ body {
   }
 
   .header .logo img {
-    height: 36px !important;
-    max-height: 36px !important;
+    height: 52px !important;
+    max-height: 52px !important;
   }
 
   .navmenu a,
@@ -9200,9 +9200,9 @@ body {
   }
 
   .header .logo img {
-    height: 36px !important;
-    max-height: 36px !important;
-    max-width: 154px;
+    height: 50px !important;
+    max-height: 50px !important;
+    max-width: 215px;
     width: auto !important;
     min-width: 0 !important;
   }
@@ -9303,9 +9303,9 @@ body {
   }
 
   .header .logo img {
-    height: 30px !important;
-    max-height: 30px !important;
-    max-width: 126px !important;
+    height: 42px !important;
+    max-height: 42px !important;
+    max-width: 175px !important;
     min-width: 0 !important;
   }
 
@@ -9382,8 +9382,8 @@ body {
 }
 
 .footer .footer-about .logo img {
-  height: 48px !important;
-  max-height: 48px !important;
+  height: 82px !important;
+  max-height: 82px !important;
   width: auto !important;
   min-width: 0 !important;
   max-width: 100%;
