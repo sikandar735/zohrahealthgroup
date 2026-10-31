@@ -1,13 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
   <defs>
     <linearGradient id="bgFounderF" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B2545"/>
-      <stop offset="50%" stop-color="#0369A1"/>
+      <stop offset="0%" stop-color="#07192F"/>
+      <stop offset="50%" stop-color="#0C4A6E"/>
       <stop offset="100%" stop-color="#0D9488"/>
     </linearGradient>
     <linearGradient id="coatFounderF" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
     </linearGradient>
     <clipPath id="clipFounderF">
       <rect x="0" y="0" width="400" height="400"/>
@@ -15,17 +20,28 @@
   </defs>
   <g clip-path="url(#clipFounderF)">
     <rect width="400" height="400" fill="url(#bgFounderF)"/>
-    <circle cx="200" cy="175" r="148" fill="rgba(255,255,255,0.05)" stroke="rgba(251,191,36,0.35)" stroke-width="2"/>
-    <circle cx="200" cy="175" r="112" fill="rgba(45,212,191,0.08)"/>
-    <path d="M 122,155 C 115,210 112,265 128,295 L 272,295 C 288,265 285,210 278,155 C 272,102 240,86 200,86 C 160,86 128,102 122,155 Z" fill="#1E293B"/>
-    <path d="M 72,400 C 72,308 124,274 200,274 C 276,274 328,308 328,400 Z" fill="url(#coatFounderF)"/>
-    <path d="M 160,274 Q 200,335 240,274 L 222,400 L 178,400 Z" fill="#0284C7"/>
-    <path d="M 158,274 L 138,348 L 182,368 L 194,335 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
-    <path d="M 242,274 L 262,348 L 218,368 L 206,335 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
-    <path d="M 152,276 C 148,325 168,350 185,356" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" fill="none"/>
-    <path d="M 248,276 C 252,325 232,345 225,352" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" fill="none"/>
-    <circle cx="225" cy="354" r="10" fill="#F59E0B" stroke="#0F172A" stroke-width="3"/>
-    <circle cx="225" cy="354" r="4" fill="#FEF3C7"/>
+    <!-- Subtle ECG / Heartbeat background wave -->
+    <path d="M 0,210 L 85,210 L 102,188 L 118,236 L 136,158 L 154,242 L 170,198 L 186,210 L 400,210" stroke="rgba(45,212,191,0.16)" stroke-width="2.5" fill="none"/>
+    <circle cx="200" cy="175" r="152" fill="rgba(255,255,255,0.04)" stroke="url(#goldRing)" stroke-opacity="0.45" stroke-width="2"/>
+    <circle cx="200" cy="175" r="116" fill="rgba(45,212,191,0.09)"/>
+    <!-- Hair back -->
+    <path d="M 120,152 C 112,208 110,265 126,296 L 274,296 C 290,265 288,208 280,152 C 272,98 240,82 200,82 C 160,82 128,98 120,152 Z" fill="#182232"/>
+    <!-- White Surgeon / Physician Coat -->
+    <path d="M 68,400 C 68,306 122,272 200,272 C 278,272 332,306 332,400 Z" fill="url(#coatFounderF)"/>
+    <!-- Surgical Scrub V-neck -->
+    <path d="M 158,272 Q 200,336 242,272 L 224,400 L 176,400 Z" fill="#0284C7"/>
+    <!-- Coat Lapels -->
+    <path d="M 158,272 L 136,348 L 182,368 L 194,334 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <path d="M 242,272 L 264,348 L 218,368 L 206,334 Z" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+    <!-- Cardiology Stethoscope -->
+    <path d="M 150,275 C 146,325 166,350 184,356" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <path d="M 250,275 C 254,325 234,345 226,352" stroke="#0F172A" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+    <circle cx="226" cy="354" r="11" fill="url(#goldRing)" stroke="#0F172A" stroke-width="2.8"/>
+    <circle cx="226" cy="354" r="4.5" fill="#FEF3C7"/>
+    <!-- Heart Surgeon Lapel Pin -->
+    <circle cx="154" cy="332" r="9" fill="#0F172A" stroke="url(#goldRing)" stroke-width="1.5"/>
+    <path d="M 154,336 C 154,336 149,332.5 149,329.5 C 149,327.8 150.4,326.8 151.8,326.8 C 152.9,326.8 153.6,327.5 154,328.3 C 154.4,327.5 155.1,326.8 156.2,326.8 C 157.6,326.8 159,327.8 159,329.5 C 159,332.5 154,336 154,336 Z" fill="#F43F5E"/>
+    <!-- Neck & Face -->
     <rect x="181" y="228" width="38" height="55" rx="18" fill="#F3CFB3"/>
     <path d="M 181,245 Q 200,258 219,245 L 219,262 Q 200,274 181,262 Z" fill="#DFB290" opacity="0.45"/>
     <circle cx="143" cy="192" r="4.5" fill="#FBBF24"/>
@@ -34,14 +50,18 @@
     <path d="M 162,158 Q 175,150 187,156" stroke="#1E293B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
     <path d="M 213,156 Q 225,150 238,158" stroke="#1E293B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
     <circle cx="175" cy="171" r="4.8" fill="#0F172A"/>
+    <circle cx="173.5" cy="169.5" r="1.5" fill="#FFFFFF"/>
     <path d="M 167,168 Q 175,163 183,169" stroke="#0F172A" stroke-width="2" fill="none"/>
     <circle cx="225" cy="171" r="4.8" fill="#0F172A"/>
+    <circle cx="223.5" cy="169.5" r="1.5" fill="#FFFFFF"/>
     <path d="M 217,169 Q 225,163 233,168" stroke="#0F172A" stroke-width="2" fill="none"/>
     <path d="M 200,170 L 198,194 L 204,196" stroke="#D5A684" stroke-width="2.5" stroke-linecap="round" fill="none"/>
     <path d="M 185,213 Q 200,224 215,213" stroke="#C26D68" stroke-width="3.5" stroke-linecap="round" fill="none"/>
-    <path d="M 144,168 C 142,126 170,104 205,104 C 235,104 256,128 256,168 C 246,142 224,126 196,124 C 172,126 154,144 144,168 Z" fill="#1E293B"/>
-    <rect x="20" y="20" width="126" height="30" rx="15" fill="rgba(11, 37, 69, 0.78)" stroke="rgba(251, 191, 36, 0.65)" stroke-width="1.5"/>
-    <circle cx="36" cy="35" r="4.5" fill="#FBBF24"/>
-    <text x="48" y="39" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="0.8px">FOUNDER</text>
+    <!-- Hair front -->
+    <path d="M 144,168 C 142,124 170,102 205,102 C 235,102 256,126 256,168 C 246,140 224,124 196,122 C 172,124 154,142 144,168 Z" fill="#182232"/>
+    <!-- Top Executive Badge -->
+    <rect x="18" y="18" width="214" height="30" rx="15" fill="rgba(7, 25, 47, 0.85)" stroke="url(#goldRing)" stroke-width="1.5"/>
+    <circle cx="34" cy="33" r="4.5" fill="#FBBF24"/>
+    <text x="46" y="37" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-size="10.2" font-weight="700" fill="#FFFFFF" letter-spacing="0.7px">FOUNDER • HEART SURGEON</text>
   </g>
 </svg>

@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Zohran Health Group | Premier Multi-Specialty Healthcare Across the USA &amp; Canada</title>
-  <meta name="description" content="Zohran Health Group delivers world-class multi-specialty healthcare, surgery, and advanced diagnostics across the United States and Canada. Founded by Cardiologist & Heart Surgeon Dr. Sarah, our network unites leading doctors and specialists in every field of medicine.">
-  <meta name="keywords" content="Zohran Health Group, Multi-Specialty Hospital Network, USA Healthcare, Canada Healthcare, Dr. Sarah Cardiologist Heart Surgeon, Cardiology, Neurology, Orthopedics, Pediatrics, Family Medicine, Internal Medicine, Book Doctor Appointment">
+  <title>Zohran Health Group | Premier Multi-Specialty Healthcare &amp; Hospital Network — USA &amp; Canada</title>
+  <meta name="description" content="Zohran Health Group delivers compassionate, world-class outpatient medical centres, specialist clinics, advanced diagnostics, and comprehensive hospital care across the United States and Canada. Founded by Senior Cardiologist &amp; Heart Surgeon Dr. Sarah.">
+  <meta name="keywords" content="Zohran Health Group, Multi-Specialty Hospital Network, Medical Centre USA Canada, Dr. Sarah Cardiologist Heart Surgeon, Family Medicine, Internal Medicine, Cardiology, Neurology, Orthopedics, Pediatrics, Book Doctor Appointment">
 
   <!-- Favicons -->
-  <link href="assets/img/logo-emblem.svg?v=7" rel="icon" type="image/svg+xml">
+  <link href="assets/img/logo-emblem.svg?v=8" rel="icon" type="image/svg+xml">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -26,7 +26,7 @@
   <link href="vendors/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css?v=7" rel="stylesheet">
+  <link href="assets/css/main.css?v=8" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -35,7 +35,7 @@
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <img src="assets/img/logo-dark.svg?v=7" alt="Zohran Health Group Logo">
+        <img src="assets/img/logo-dark.svg?v=8" alt="Zohran Health Group Logo">
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -46,12 +46,14 @@
           <li><a href="services.html">Services</a></li>
           <li class="dropdown"><a href="#"><span>Patient Care</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
+              <li><a href="department-details.html">Multi-Specialty Care Network</a></li>
+              <li><a href="service-details.html">Outpatient &amp; Digital Health</a></li>
               <li><a href="appointment.html">Book an Appointment</a></li>
-              <li><a href="service-details.html">Patient Care Experience</a></li>
-              <li><a href="department-details.html">Our Medical Network</a></li>
-              <li><a href="gallery.html">Modern Facilities</a></li>
-              <li><a href="testimonials.html">Why Choose Zohran Health</a></li>
-              <li><a href="faq.html">Patient FAQs</a></li>
+              <li><a href="testimonials.html">Quality &amp; Patient Experience</a></li>
+              <li><a href="faq.html">Patient &amp; Care FAQ</a></li>
+              <li><a href="gallery.html">Modern Medical Facilities</a></li>
+              <li><a href="terms.html">Patient Charter &amp; Terms</a></li>
+              <li><a href="privacy.html">HIPAA &amp; PIPEDA Privacy</a></li>
             </ul>
           </li>
           <li><a href="contact.html">Contact</a></li>
@@ -68,92 +70,249 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <div class="container-fluid p-0">
-        <div class="hero-wrapper">
-          <div class="hero-image">
-            <img src="assets/img/health/showcase-1.webp" alt="Zohran Health Group — Premier Multi-Specialty Healthcare Across the USA & Canada" class="img-fluid">
-          </div>
 
-          <div class="hero-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8 col-md-10" data-aos="fade-right" data-aos-delay="100">
-                  <div class="content-box">
-                    <span class="badge-accent" data-aos="fade-up" data-aos-delay="150">United States &amp; Canada • Multi-Specialty Medical &amp; Surgical Care</span>
-                    <h1 data-aos="fade-up" data-aos-delay="200">World-Class Doctors &amp; Specialists Caring for Every Stage of Life</h1>
-                    <p data-aos="fade-up" data-aos-delay="250">From Cardiology &amp; Heart Surgery, Neurology, Orthopedics, and Pediatrics to Family Medicine, Women's Health, Diagnostics, and Rehabilitation—<strong>Zohran Health Group</strong> connects patients across the United States and Canada with leading physicians and surgeons under one trusted healthcare brand.</p>
+      <div class="hero-slider swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 900,
+            "autoplay": {
+              "delay": 6000
+            },
+            "effect": "fade",
+            "fadeEffect": {
+              "crossFade": true
+            },
+            "slidesPerView": 1,
+            "navigation": {
+              "nextEl": ".hero-swiper-next",
+              "prevEl": ".hero-swiper-prev"
+            },
+            "pagination": {
+              "el": ".hero-swiper-pagination",
+              "clickable": true
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
 
-                    <div class="cta-group" data-aos="fade-up" data-aos-delay="300">
-                      <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
-                      <a href="departments.html" class="btn btn-outline">Explore Medical Specialties</a>
+          <!-- Slide 1: Comprehensive Multi-Specialty Care -->
+          <div class="swiper-slide">
+            <img src="assets/img/health/showcase-1.webp" alt="Zohran Health Group — Premier Multi-Specialty Healthcare Across the USA and Canada" class="slide-bg">
+            <div class="slide-overlay"></div>
+            <div class="container slide-container">
+              <div class="row align-items-center gy-4">
+                <div class="col-lg-7">
+                  <div class="hero-content" data-aos="fade-up" data-aos-delay="100">
+                    <span class="eyebrow-badge">
+                      <span class="status-dot"></span>
+                      United States &amp; Canada • Multi-Specialty Healthcare Network
+                    </span>
+                    <h1>World-Class Doctors, Advanced Specialties &amp; Compassionate Care</h1>
+                    <p class="lead-text">Welcome to Zohran Health Group — a premier North American healthcare network uniting board-certified physicians, specialist surgeons, modern outpatient medical centres, and integrated diagnostics across the United States and Canada.</p>
+                    <div class="cta-group">
+                      <a href="appointment.html" class="btn-primary-action">
+                        <span>Book Your Appointment</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                      <a href="departments.html" class="btn-secondary-action">
+                        <i class="bi bi-grid-3x3-gap"></i>
+                        <span>Explore Medical Specialties</span>
+                      </a>
                     </div>
-
-                    <div class="info-badges" data-aos="fade-up" data-aos-delay="350">
-                      <div class="badge-item">
-                        <i class="bi bi-heart-pulse-fill"></i>
-                        <div class="badge-content">
-                          <span>Medical &amp; Surgical Excellence</span>
-                          <strong>All Major Specialties &amp; Sub-Specialties</strong>
-                        </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="info-stack" data-aos="fade-left" data-aos-delay="200">
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-heart-pulse"></i>
                       </div>
-                      <div class="badge-item">
-                        <i class="bi bi-globe-americas"></i>
-                        <div class="badge-content">
-                          <span>North American Network</span>
-                          <strong>Serving Patients Across the USA &amp; Canada</strong>
-                        </div>
+                      <div class="info-body">
+                        <span class="info-label">Comprehensive Medical Scope</span>
+                        <h4>Every Major Medical &amp; Surgical Specialty</h4>
+                        <p>From Family &amp; Internal Medicine to Cardiology &amp; Heart Surgery, Neurology, Orthopedics, Pediatrics, Women's Health, Dermatology, and Rehabilitation.</p>
+                      </div>
+                    </div>
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-person-Vcard"></i>
+                      </div>
+                      <div class="info-body">
+                        <span class="info-label">Physician-Led Excellence</span>
+                        <h4>Founded by Dr. Sarah, Cardiologist &amp; Heart Surgeon</h4>
+                        <p>Guided by experienced medical specialists and executive leaders dedicated to ethical, accessible, and personalized patient outcomes.</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div><!-- End Slide 1 -->
 
-              <div class="features-wrapper">
-                <div class="row gy-4">
-
-                  <div class="col-lg-4">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="450">
-                      <div class="feature-icon">
-                        <i class="bi bi-heart-pulse-fill"></i>
-                      </div>
-                      <div class="feature-text">
-                        <h3>Heart, Brain, Bone &amp; Whole-Body Care</h3>
-                        <p>Expert cardiologists, heart surgeons, neurologists, orthopedic surgeons, pediatricians, and primary care physicians working together for you.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
-                      <div class="feature-icon">
-                        <i class="bi bi-calendar2-check-fill"></i>
-                      </div>
-                      <div class="feature-text">
-                        <h3>Fast Appointments &amp; Telehealth</h3>
-                        <p>Skip long wait times with convenient same-week in-person visits, specialist consultations, and virtual care across the US and Canada.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-4">
-                    <div class="feature-item" data-aos="fade-up" data-aos-delay="550">
-                      <div class="feature-icon">
+          <!-- Slide 2: Fast Access, Modern Clinics & Digital Health -->
+          <div class="swiper-slide">
+            <img src="assets/img/health/facilities-3.webp" alt="Modern Outpatient Medical Centres & Specialist Clinics" class="slide-bg" loading="lazy">
+            <div class="slide-overlay"></div>
+            <div class="container slide-container">
+              <div class="row align-items-center gy-4">
+                <div class="col-lg-7">
+                  <div class="hero-content">
+                    <span class="eyebrow-badge">
+                      <span class="status-dot"></span>
+                      Same-Week Appointments • Integrated Diagnostics &amp; Rehab
+                    </span>
+                    <h1>Seamless Outpatient Care Designed Around Your Family</h1>
+                    <p class="lead-text">Skip the long waiting lists. Our modern medical centres bring primary care doctors, visiting specialists, physiotherapy, laboratory testing, and digital health records together under one roof.</p>
+                    <div class="cta-group">
+                      <a href="services.html" class="btn-primary-action">
+                        <span>View Clinical Services</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                      <a href="about.html" class="btn-secondary-action">
                         <i class="bi bi-shield-check"></i>
+                        <span>Meet Our Leadership</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="info-stack">
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-hospital"></i>
                       </div>
-                      <div class="feature-text">
-                        <h3>Advanced Diagnostics &amp; Technology</h3>
-                        <p>Integrated imaging, cardiac diagnostics, comprehensive lab panels, and digital patient portals protected by US HIPAA &amp; Canadian PIPEDA standards.</p>
+                      <div class="info-body">
+                        <span class="info-label">Modern Clinical Suites</span>
+                        <h4>Comfort, Privacy &amp; Accessibility</h4>
+                        <p>Thoughtfully designed consultation rooms, minor procedure suites, rehabilitation bays, and on-site diagnostic collection.</p>
+                      </div>
+                    </div>
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-laptop"></i>
+                      </div>
+                      <div class="info-body">
+                        <span class="info-label">Connected Patient Experience</span>
+                        <h4>Smart Digital Health &amp; Online Booking</h4>
+                        <p>Instant appointment scheduling, coordinated specialist referrals, and HIPAA &amp; PIPEDA protected electronic medical records.</p>
                       </div>
                     </div>
                   </div>
-
                 </div>
               </div>
+            </div>
+          </div><!-- End Slide 2 -->
 
+          <!-- Slide 3: Advanced Specialist & Surgical Care -->
+          <div class="swiper-slide">
+            <img src="assets/img/health/surgery-2.webp" alt="Multi-Specialty Physicians, Surgeons & Diagnostic Teams" class="slide-bg" loading="lazy">
+            <div class="slide-overlay"></div>
+            <div class="container slide-container">
+              <div class="row align-items-center gy-4">
+                <div class="col-lg-7">
+                  <div class="hero-content">
+                    <span class="eyebrow-badge">
+                      <span class="status-dot"></span>
+                      Clinical Excellence • United States &amp; Canada
+                    </span>
+                    <h1>Trusted by Patients Across the US &amp; Canada</h1>
+                    <p class="lead-text">Whether you need preventive checkups, chronic condition management, specialist consultations, or surgical evaluation, Zohran Health Group connects you with top-tier medical professionals.</p>
+                    <div class="cta-group">
+                      <a href="appointment.html" class="btn-primary-action">
+                        <span>Schedule a Visit Today</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                      </a>
+                      <a href="contact.html" class="btn-secondary-action">
+                        <i class="bi bi-telephone"></i>
+                        <span>Speak With Patient Care</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="info-stack">
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-award"></i>
+                      </div>
+                      <div class="info-body">
+                        <span class="info-label">Board-Certified Specialists</span>
+                        <h4>Multidisciplinary Medical Teams</h4>
+                        <p>Collaborative care across Cardiology, Internal Medicine, Neurology, Orthopedics, Pediatrics, Dermatology, Endocrinology, and Surgery.</p>
+                      </div>
+                    </div>
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-clipboard2-pulse"></i>
+                      </div>
+                      <div class="info-body">
+                        <span class="info-label">Uncompromising Safety</span>
+                        <h4>Rigorous Clinical Quality Standards</h4>
+                        <p>Every clinic operates under strict evidence-based medical protocols, infection control, and continuous patient satisfaction monitoring.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Slide 3 -->
+
+        </div>
+
+        <div class="slider-controls container">
+          <div class="hero-swiper-pagination"></div>
+          <div class="nav-buttons">
+            <button type="button" class="hero-swiper-prev" aria-label="Previous slide">
+              <i class="bi bi-arrow-left"></i>
+            </button>
+            <button type="button" class="hero-swiper-next" aria-label="Next slide">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Metrics Bar -->
+      <div class="metrics-bar">
+        <div class="container">
+          <div class="row g-3 g-lg-4">
+            <div class="col-6 col-lg-3">
+              <div class="metric-item">
+                <span class="metric-value">
+                  <span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1" class="purecounter">38</span>+
+                </span>
+                <span class="metric-label">Medical &amp; Surgical Specialties</span>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="metric-item">
+                <span class="metric-value">
+                  <span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter">98</span>%
+                </span>
+                <span class="metric-label">Patient Satisfaction Benchmark</span>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="metric-item">
+                <span class="metric-value">
+                  <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter">24</span>/7
+                </span>
+                <span class="metric-label">Digital Booking &amp; Care Coordination</span>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="metric-item">
+                <span class="metric-value">
+                  <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter">2</span> Nations
+                </span>
+                <span class="metric-label">Serving USA &amp; Canada Communities</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
     </section><!-- /Hero Section -->
 
     <!-- Home About Section -->
@@ -161,489 +320,1322 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-5 align-items-center">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <div class="about-image">
-              <img src="assets/img/health/facilities-1.webp" alt="Zohran Health Group Medical Centre" class="img-fluid rounded-3 mb-4">
-              <div class="experience-badge">
-                <span class="years">USA &amp; CA</span>
-                <span class="text">Premier Multi-Specialty Healthcare Network</span>
+        <!-- Top Intro Header -->
+        <div class="row justify-content-between align-items-end mb-5 gy-4">
+          <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
+            <div class="eyebrow-badge">
+              <span class="dot"></span>
+              <span>About Zohran Health Group • United States &amp; Canada</span>
+            </div>
+            <h2 class="section-heading">A Modern Multi-Specialty Healthcare Network Built Around Patients</h2>
+          </div>
+          <div class="col-lg-5" data-aos="fade-left" data-aos-delay="200">
+            <p class="lead-description">Zohran Health Group combines the personal warmth of community medicine with the clinical depth of a comprehensive multi-specialty healthcare network. From routine family checkups to specialized cardiac, neurological, orthopedic, and surgical care, our doctors work together for your lifelong health.</p>
+          </div>
+        </div>
+
+        <!-- Stats Strip -->
+        <div class="stats-strip" data-aos="fade-up" data-aos-delay="200">
+          <div class="row g-0">
+            <div class="col-6 col-lg-3">
+              <div class="stat-cell">
+                <div class="stat-top">
+                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="1">38</span>
+                  <span class="stat-suffix">Depts</span>
+                </div>
+                <p class="stat-label">Comprehensive Clinical Specialties</p>
+                <span class="stat-meta">Primary, Specialty &amp; Surgical Care</span>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="about-content">
-              <h2>A Complete Healthcare Destination for You and Your Family</h2>
-              <p class="lead">At Zohran Health Group, we believe patients deserve seamless access to top doctors, acclaimed surgeons, and compassionate care across every medical specialty.</p>
-
-              <p>Founded by <strong>Dr. Sarah</strong>—an experienced <strong>Cardiologist &amp; Heart Surgeon</strong>—Zohran Health Group brings together a wide variety of specialists under one collaborative roof. Whether you need routine family checkups, specialized heart or orthopedic surgery, pediatric care, neurological evaluation, women's health, or advanced diagnostic imaging, our multidisciplinary teams across the United States and Canada are here for you.</p>
-
-              <div class="row g-4 mt-4">
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                  <div class="feature-item">
-                    <div class="icon">
-                      <i class="bi bi-person-hearts"></i>
-                    </div>
-                    <h4>Wide Variety of Specialists</h4>
-                    <p>Board-certified physicians and surgeons spanning Cardiology, Heart Surgery, Neurology, Orthopedics, Pediatrics, Internal Medicine, and more.</p>
-                  </div>
+            <div class="col-6 col-lg-3">
+              <div class="stat-cell">
+                <div class="stat-top">
+                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1">9</span>
+                  <span class="stat-suffix">Core</span>
                 </div>
-
-                <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-                  <div class="feature-item">
-                    <div class="icon">
-                      <i class="bi bi-award"></i>
-                    </div>
-                    <h4>Coordinated Patient Journey</h4>
-                    <p>From your first consultation and diagnostic scan to treatment, surgery, and recovery—your entire medical team shares one unified care plan.</p>
-                  </div>
-                </div>
+                <p class="stat-label">Outpatient Clinical Hubs</p>
+                <span class="stat-meta">Consultations, Diagnostics &amp; Rehab</span>
               </div>
-
-              <div class="cta-wrapper mt-4">
-                <a href="about.html" class="btn btn-primary">Discover Our Story &amp; Leadership</a>
-                <a href="appointment.html" class="btn btn-outline">Schedule Your Visit</a>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="stat-cell">
+                <div class="stat-top">
+                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1">8</span>
+                  <span class="stat-suffix">Values</span>
+                </div>
+                <p class="stat-label">Patient-First Core Pillars</p>
+                <span class="stat-meta">Compassion, Integrity &amp; Safety</span>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3">
+              <div class="stat-cell">
+                <div class="stat-top">
+                  <span class="stat-number purecounter" data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1">100</span>
+                  <span class="stat-suffix">%</span>
+                </div>
+                <p class="stat-label">Board-Certified Care Standards</p>
+                <span class="stat-meta">HIPAA (USA) &amp; PIPEDA (Canada)</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="row mt-5 pt-4Certifications-row" data-aos="fade-up" data-aos-delay="600">
-          <div class="col-12 text-center mb-4">
-            <h4 class="certification-title">Comprehensive Care Standards Across the United States &amp; Canada</h4>
-          </div>
-          <div class="col-12">
-            <div class="certifications">
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="700">
-                <img src="assets/img/clients/clients-1.webp" alt="Clinical Excellence">
+        <!-- Main Bento Grid -->
+        <div class="row g-4 mt-2 align-items-stretch">
+
+          <!-- Left Visual Card -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="media-stack h-100">
+              <div class="primary-image-wrap">
+                <img src="assets/img/health/consultation-4.webp" alt="Zohran Health Group Physician Consultation" class="img-fluid main-img" loading="lazy">
+                <div class="image-overlay-tag">
+                  <i class="bi bi-shield-check"></i>
+                  <span>Patient-Centred Care • USA &amp; Canada</span>
+                </div>
               </div>
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="800">
-                <img src="assets/img/clients/clients-2.webp" alt="Patient Safety">
-              </div>
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="900">
-                <img src="assets/img/clients/clients-3.webp" alt="Board Certified Specialists">
-              </div>
-              <div class="certification-item" data-aos="zoom-in" data-aos-delay="1000">
-                <img src="assets/img/clients/clients-4.webp" alt="Digital Health & Privacy">
+              <div class="secondary-card">
+                <img src="assets/img/health/laboratory-3.webp" alt="Advanced Diagnostic &amp; Clinical Coordination" class="img-fluid thumb-img" loading="lazy">
+                <div class="secondary-card-body">
+                  <div class="live-indicator">
+                    <span class="pulse"></span>
+                    <span class="status-text">Multi-Specialty Excellence</span>
+                  </div>
+                  <h4>One Connected Care Team</h4>
+                  <p>Primary care physicians, medical specialists, surgeons, physiotherapists, and diagnostic teams collaborating seamlessly.</p>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Right Feature Cards Stack -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="features-column h-100 d-flex flex-column justify-content-between">
+
+              <div class="feature-card primary-card">
+                <div class="card-header-row">
+                  <span class="card-tag">Why Patients Choose Zohran Health Group</span>
+                  <span class="card-index">USA &amp; CANADA</span>
+                </div>
+                <h3>Complete Healthcare for Every Stage of Life</h3>
+                <p>Led by Founder <strong>Dr. Sarah (Senior Cardiologist &amp; Heart Surgeon)</strong> alongside a diverse team of specialists across 38 medical fields, we provide accessible, dignified, and technologically advanced healthcare for individuals and families.</p>
+                <ul class="check-list">
+                  <li>
+                    <i class="bi bi-check2"></i>
+                    <span><strong>Diverse Medical Specialties:</strong> Family Medicine, Internal Medicine, Cardiology &amp; Heart Surgery, Neurology, Orthopedics, Pediatrics, OB/GYN, Dermatology, Endocrinology &amp; more.</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check2"></i>
+                    <span><strong>Integrated Diagnostics &amp; Rehab:</strong> On-site ECG, sample collection, point-of-care testing, accredited lab/imaging coordination, and physiotherapy.</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-check2"></i>
+                    <span><strong>Faster Appointments &amp; Clear Communication:</strong> Easy online booking, transparent care plans, and coordinated follow-ups across the US and Canada.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="capabilities-grid">
+                <div class="capability-item">
+                  <div class="cap-icon">
+                    <i class="bi bi-heart-pulse"></i>
+                  </div>
+                  <div class="cap-content">
+                    <h5>38 Medical Specialties</h5>
+                    <p>Full spectrum of primary, specialist, diagnostic, and surgical disciplines.</p>
+                  </div>
+                </div>
+                <div class="capability-item">
+                  <div class="cap-icon">
+                    <i class="bi bi-Activity"></i>
+                    <i class="bi bi-clipboard2-pulse"></i>
+                  </div>
+                  <div class="cap-content">
+                    <h5>Preventive &amp; Chronic Care</h5>
+                    <p>Proactive heart health, diabetes, hypertension, and wellness programs.</p>
+                  </div>
+                </div>
+                <div class="capability-item">
+                  <div class="cap-icon">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <div class="cap-content">
+                    <h5>Digital Health &amp; EMR</h5>
+                    <p>Secure patient records, online scheduling, and telehealth consultations.</p>
+                  </div>
+                </div>
+                <div class="capability-item">
+                  <div class="cap-icon">
+                    <i class="bi bi-globe-americas"></i>
+                  </div>
+                  <div class="cap-content">
+                    <h5>North American Reach</h5>
+                    <p>Serving patients, families, and communities across the USA and Canada.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Action Bar -->
+              <div class="action-bar">
+                <div class="action-Group">
+                  <a href="about.html" class="btn-solid">
+                    <span>About Our Organization</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                  <a href="appointment.html" class="btn-outline-subtle">
+                    <i class="bi bi-calendar2-check"></i>
+                    <span>Book a Consultation</span>
+                  </a>
+                </div>
+                <div class="trust-note">
+                  <i class="bi bi-patch-check-fill"></i>
+                  <span>Multi-Specialty Physicians &amp; Surgeons</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
 
       </div>
 
     </section><!-- /Home About Section -->
 
+    <!-- PrebuiltUI MediCare Sticky Stacking Services Section -->
+    <section id="services-stack" class="services-stack-section section">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-start">
+
+          <!-- Left Sticky Column -->
+          <div class="col-lg-5">
+            <div class="services-stack-sticky" data-aos="fade-right" data-aos-delay="100">
+              <div class="eyebrow-pill">
+                <span class="pulse-dot"></span>
+                <span>Comprehensive Patient Care • Multi-Specialty Clinics</span>
+              </div>
+              <h2>Personalized Medical Care Across Every Major Specialty</h2>
+              <p class="lead-copy">Our clinics bring together experienced family doctors, internal medicine specialists, cardiologists, neurologists, orthopedic &amp; physiotherapy teams, dermatologists, endocrinologists, and diagnostic specialists.</p>
+
+              <div class="stack-highlights">
+                <div class="stack-highlight-item">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>Primary Care, Family Medicine &amp; Annual Wellness</span>
+                </div>
+                <div class="stack-highlight-item">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>Cardiology, Neurology, Orthopedics &amp; Specialist Clinics</span>
+                </div>
+                <div class="stack-highlight-item">
+                  <i class="bi bi-check2-circle"></i>
+                  <span>On-Site Diagnostics, Physiotherapy &amp; Chronic Care</span>
+                </div>
+              </div>
+
+              <div class="stack-cta-group">
+                <a href="appointment.html" class="btn-stack-primary">
+                  <span>Book an Appointment</span>
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <a href="services.html" class="btn-stack-secondary">
+                  <span>View All Services</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Stacking Cards Column -->
+          <div class="col-lg-7">
+            <div class="services-cards-stack">
+
+              <!-- Card 01 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-visual">
+                  <img src="assets/img/services/services-image1.png" alt="Family Medicine &amp; Primary Healthcare" loading="lazy">
+                  <span class="card-step-badge">01 / Primary Care</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-heart-pulse"></i>
+                  </div>
+                  <h3>Family Medicine &amp; Preventive Health</h3>
+                  <p>Comprehensive primary care for children, adults, and seniors—including routine health checkups, immunizations, acute illness treatment, health screenings, and seamless specialist referrals.</p>
+                  <div class="card-tags">
+                    <span>All-Ages Primary Care</span>
+                    <span>Annual Checkups</span>
+                    <span>Preventive Screening</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 02 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-visual">
+                  <img src="assets/img/services/services-image2.png" alt="Internal Medicine &amp; Chronic Disease Care" loading="lazy">
+                  <span class="card-step-badge">02 / Internal Medicine</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-clipboard2-pulse"></i>
+                  </div>
+                  <h3>Internal Medicine &amp; Complex Adult Care</h3>
+                  <p>In-depth diagnosis and long-term management of complex adult medical conditions, hypertension, respiratory disorders, metabolic health, and multi-system illnesses.</p>
+                  <div class="card-tags">
+                    <span>Adult Medicine</span>
+                    <span>Chronic Disease Care</span>
+                    <span>Diagnostic Evaluation</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 03 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-visual">
+                  <img src="assets/img/services/services-image3.png" alt="Cardiology, Heart Surgery &amp; Specialist Clinics" loading="lazy">
+                  <span class="card-step-badge">03 / Multi-Specialty</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-person-badge"></i>
+                  </div>
+                  <h3>Cardiology, Heart Surgery &amp; Specialist Consultations</h3>
+                  <p>Direct access to experienced specialists across Cardiology &amp; Cardiovascular Surgery, Neurology, Pediatrics, Women's Health (OB/GYN), Gastroenterology, Ophthalmology, and ENT.</p>
+                  <div class="card-tags">
+                    <span>Heart &amp; Vascular Care</span>
+                    <span>Neurology &amp; Pediatrics</span>
+                    <span>Surgical Consults</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 04 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-visual">
+                  <img src="assets/img/services/services-image4.png" alt="Orthopedics, Physiotherapy &amp; Rehabilitation" loading="lazy">
+                  <span class="card-step-badge">04 / Rehabilitation</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-person-walking"></i>
+                  </div>
+                  <h3>Orthopedics, Physiotherapy &amp; Rehabilitation</h3>
+                  <p>Personalized physical therapy, sports injury recovery, post-surgical rehabilitation, joint &amp; spine care, pain relief modalities, and mobility restoration programs.</p>
+                  <div class="card-tags">
+                    <span>Sports &amp; Joint Rehab</span>
+                    <span>Post-Surgical Recovery</span>
+                    <span>Pain &amp; Mobility</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 05 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-visual">
+                  <img src="assets/img/services/services-image5.png" alt="Dermatology &amp; Skin Health Clinic" loading="lazy">
+                  <span class="card-step-badge">05 / Dermatology</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-bandaid"></i>
+                  </div>
+                  <h3>Dermatology &amp; Minor Clinical Procedures</h3>
+                  <p>Expert medical evaluation and treatment for skin, hair, and nail conditions, eczema, acne, mole and skin cancer screenings, and outpatient dermatological procedures.</p>
+                  <div class="card-tags">
+                    <span>Medical Dermatology</span>
+                    <span>Skin Screening</span>
+                    <span>Outpatient Procedures</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 06 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-visual">
+                  <img src="assets/img/services/services-image6.png" alt="Diabetes, Endocrinology &amp; Clinical Nutrition" loading="lazy">
+                  <span class="card-step-badge">06 / Metabolic Care</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-activity"></i>
+                  </div>
+                  <h3>Diabetes, Endocrinology &amp; Clinical Nutrition</h3>
+                  <p>Integrated endocrine and metabolic care for Type 1 &amp; Type 2 diabetes, thyroid disorders, hormonal health, medical weight management, and personalized dietary counseling.</p>
+                  <div class="card-tags">
+                    <span>Diabetes &amp; Thyroid</span>
+                    <span>Hormonal Health</span>
+                    <span>Medical Nutrition</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Card 07 -->
+              <article class="sticky-service-card" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-visual">
+                  <img src="assets/img/health/laboratory-3.webp" alt="Diagnostics, ECG &amp; Laboratory Services" loading="lazy">
+                  <span class="card-step-badge">07 / Diagnostics</span>
+                </div>
+                <div class="card-details">
+                  <div class="card-icon-badge">
+                    <i class="bi bi-eyedropper"></i>
+                  </div>
+                  <h3>Diagnostics, ECG, Lab &amp; Imaging Coordination</h3>
+                  <p>Convenient on-site blood &amp; specimen collection, 12-lead ECG testing, rapid point-of-care diagnostics, and priority scheduling for ultrasound, X-ray, CT, and MRI imaging.</p>
+                  <div class="card-tags">
+                    <span>Blood &amp; Lab Testing</span>
+                    <span>12-Lead ECG</span>
+                    <span>Imaging Coordination</span>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /PrebuiltUI MediCare Sticky Stacking Services Section -->
+
     <!-- Featured Departments Section -->
-    <section id="featured-departments" class="featured-departments section light-background">
+    <section id="featured-departments" class="featured-departments section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Medical &amp; Surgical Departments</h2>
-        <p>Explore our diverse range of medical specialties, surgical centres, and diagnostic departments staffed by leading physicians and surgeons across the US and Canada.</p>
+        <p>Zohran Health Group brings together a wide variety of doctors, surgeons, and allied health professionals across 38 specialized clinical departments serving patients in the United States and Canada.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/cardiology-3.webp" alt="Cardiology & Heart Surgery" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-heartbeat"></i>
+        <!-- Featured Spotlight Banner -->
+        <div class="spotlight-panel mb-4" data-aos="fade-up" data-aos-delay="150">
+          <div class="row g-0 align-items-stretch">
+            <div class="col-lg-6">
+              <div class="spotlight-media">
+                <img src="assets/img/health/showcase-5.webp" alt="Zohran Health Group Multi-Specialty Healthcare Network" loading="lazy">
+                <div class="media-badges">
+                  <span class="badge-live"><span class="dot"></span> Accepting New Patients • USA &amp; Canada</span>
+                  <span class="badge-meta">38 Clinical Specialties</span>
                 </div>
-                <h3>Cardiology &amp; Heart Surgery</h3>
-                <p>Comprehensive heart care led by experienced cardiologists and cardiothoracic heart surgeons—including preventive cardiology, echocardiography, interventional procedures, and advanced cardiac surgery.</p>
-                <a href="departments.html" class="btn-learn-more">
-                  <span>Explore Heart Care</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
               </div>
             </div>
-          </div><!-- End Department Card -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/neurology-2.webp" alt="Neurology & Spine Care" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-brain"></i>
+            <div class="col-lg-6">
+              <div class="spotlight-content">
+                <div class="eyebrow">
+                  <i class="bi bi-hospital"></i>
+                  <span>Integrated Multi-Specialty Care Network</span>
                 </div>
-                <h3>Neurology &amp; Neurosurgery</h3>
-                <p>Specialized diagnosis and treatment for migraine, stroke prevention, epilepsy, nerve disorders, memory care, and complex brain and spine conditions by board-certified neurology specialists.</p>
-                <a href="departments.html" class="btn-learn-more">
-                  <span>Explore Brain &amp; Spine</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
+                <h3>Every Specialty Your Family Needs Under One Trusted Name</h3>
+                <p>Unlike single-specialty clinics, Zohran Health Group is built as a comprehensive healthcare ecosystem. Whether you need a family physician, a heart specialist, a neurologist, a pediatrician, or physical rehabilitation, our doctors coordinate your care from start to finish.</p>
+
+                <div class="kpi-strip">
+                  <div class="kpi-item">
+                    <span class="kpi-value">Primary Care</span>
+                    <span class="kpi-label">Family &amp; Internal Medicine</span>
+                  </div>
+                  <div class="kpi-item">
+                    <span class="kpi-value">Heart &amp; Brain</span>
+                    <span class="kpi-label">Cardiology &amp; Neurology</span>
+                  </div>
+                  <div class="kpi-item">
+                    <span class="kpi-value">Surgical &amp; Acute</span>
+                    <span class="kpi-label">Orthopedics, OB/GYN &amp; Surgery</span>
+                  </div>
+                </div>
+
+                <div class="spotlight-actions">
+                  <a href="appointment.html" class="btn-primary-shadcn">
+                    <span>Book a Specialist Visit</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                  <a href="departments.html" class="btn-outline-shadcn">
+                    <i class="bi bi-grid-3x3-gap"></i>
+                    <span>Browse All Departments</span>
+                  </a>
+                </div>
               </div>
             </div>
-          </div><!-- End Department Card -->
+          </div>
+        </div><!-- End Spotlight Panel -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics & Sports Medicine" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-bone"></i>
-                </div>
-                <h3>Orthopedics, Joint &amp; Sports Medicine</h3>
-                <p>Expert orthopedic surgeons and rehabilitation therapists treating bone, joint, ligament, and spine injuries—from minimally invasive arthroscopy and joint replacement to sports recovery.</p>
-                <a href="departments.html" class="btn-learn-more">
-                  <span>Explore Orthopedics</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Department Card -->
+        <!-- Interactive Filter Bar -->
+        <div class="zhg-stage-filter-bar" data-aos="fade-up" data-aos-delay="180">
+          <button type="button" class="zhg-filter-btn active" data-stage-filter="all">Featured Specialties (12)</button>
+          <button type="button" class="zhg-filter-btn" data-stage-filter="stage-a">Primary &amp; Outpatient Care</button>
+          <button type="button" class="zhg-filter-btn" data-stage-filter="stage-b">Diagnostics &amp; Imaging</button>
+          <button type="button" class="zhg-filter-btn" data-stage-filter="stage-c">Medical Specialties</button>
+          <button type="button" class="zhg-filter-btn" data-stage-filter="stage-d">Surgical &amp; Hospital Care</button>
+        </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/pediatrics-3.webp" alt="Pediatrics & Women's Health" class="img-fluid">
-              </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-baby"></i>
-                </div>
-                <h3>Pediatrics &amp; Women's Health</h3>
-                <p>Dedicated pediatricians and OB/GYN specialists supporting newborns, children, adolescents, and women through immunizations, wellness checkups, prenatal care, and specialized gynecology.</p>
-                <a href="departments.html" class="btn-learn-more">
-                  <span>Explore Family &amp; Women's Care</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Department Card -->
+        <!-- Bento Grid of Highlighted Specialties -->
+        <div class="row g-4" id="home-dept-grid">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/dermatology-1.webp" alt="Primary, Internal & Specialty Medicine" class="img-fluid">
+          <!-- 1. Family Medicine -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item" data-stage="stage-a" data-aos="fade-up" data-aos-delay="100">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/consultation-4.webp" alt="Family Medicine" loading="lazy">
+                <span class="stage-tag">Primary Care</span>
               </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-user-md"></i>
-                </div>
-                <h3>Internal Medicine, Family Care &amp; Dermatology</h3>
-                <p>Comprehensive primary care, diabetes and endocrine management, gastroenterology, respiratory medicine, and medical/cosmetic dermatology tailored to your lifelong health goals.</p>
-                <a href="departments.html" class="btn-learn-more">
-                  <span>Explore Medical Clinics</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-house-heart"></i></div>
+                <span class="badge-pill stage-initial">Primary Care</span>
               </div>
-            </div>
-          </div><!-- End Department Card -->
+              <div class="card-body-content">
+                <h4>Family Medicine</h4>
+                <p>Comprehensive primary healthcare for children, adults, and seniors—preventive checkups, vaccinations, and continuity of family care.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2"></i><span>Annual physicals &amp; wellness screenings</span></li>
+                  <li><i class="bi bi-check2"></i><span>Acute illness &amp; family health management</span></li>
+                </ul>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-calendar2-check"></i> Same-Week Visits</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="department-card">
-              <div class="department-image">
-                <img src="assets/img/health/oncology-2.webp" alt="Advanced Diagnostics, Oncology & Surgery" class="img-fluid">
+          <!-- 2. Cardiology & Heart Surgery -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item" data-stage="stage-c" data-aos="fade-up" data-aos-delay="150">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/cardiology-3.webp" alt="Cardiology &amp; Cardiovascular Surgery" loading="lazy">
+                <span class="stage-tag">Heart &amp; Vascular</span>
               </div>
-              <div class="department-content">
-                <div class="department-icon">
-                  <i class="fas fa-microscope"></i>
-                </div>
-                <h3>Diagnostics, Oncology &amp; General Surgery</h3>
-                <p>High-precision MRI, CT, ultrasound, pathology laboratory testing, oncology screening, and modern outpatient and inpatient surgical care delivered with safety and compassion.</p>
-                <a href="departments.html" class="btn-learn-more">
-                  <span>View All Departments</span>
-                  <i class="fas fa-arrow-right"></i>
-                </a>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-heart-pulse"></i></div>
+                <span class="badge-pill stage-specialist">Specialty Care</span>
               </div>
-            </div>
-          </div><!-- End Department Card -->
+              <div class="card-body-content">
+                <h4>Cardiology &amp; Heart Surgery</h4>
+                <p>Comprehensive cardiovascular evaluation, ECG &amp; echocardiography diagnostics, coronary care, arrhythmia management, and heart surgery consultations.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2"></i><span>Preventive &amp; interventional cardiology</span></li>
+                  <li><i class="bi bi-check2"></i><span>Cardiothoracic &amp; vascular consultations</span></li>
+                </ul>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-heart-pulse"></i> Cardiac Specialists</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
 
+          <!-- 3. Internal Medicine -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item" data-stage="stage-a" data-aos="fade-up" data-aos-delay="200">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/consultation-3.webp" alt="Internal Medicine" loading="lazy">
+                <span class="stage-tag">Adult Medicine</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-clipboard2-pulse"></i></div>
+                <span class="badge-pill stage-initial">Primary &amp; Specialty</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Internal Medicine</h4>
+                <p>Expert diagnosis and personalized treatment for complex adult illnesses, hypertension, metabolic conditions, and multi-system health concerns.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2"></i><span>Comprehensive adult diagnostic workups</span></li>
+                  <li><i class="bi bi-check2"></i><span>Chronic condition &amp; cardiovascular risk care</span></li>
+                </ul>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-shield-check"></i> Board-Certified</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- 4. Neurology & Neuroscience -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item" data-stage="stage-c" data-aos="fade-up" data-aos-delay="100">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/neurology-3.webp" alt="Neurology &amp; Brain Health" loading="lazy">
+                <span class="stage-tag">Brain &amp; Spine</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-lightning-charge"></i></div>
+                <span class="badge-pill stage-specialist">Specialty Care</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Neurology &amp; Neurosurgery</h4>
+                <p>Specialized care for migraines, stroke prevention, epilepsy, neuropathy, memory disorders, movement conditions, and spine evaluation.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2"></i><span>Headache, seizure &amp; nerve diagnostics</span></li>
+                  <li><i class="bi bi-check2"></i><span>Stroke prevention &amp; neuro-rehabilitation</span></li>
+                </ul>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-activity"></i> Neuro Specialists</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- 5. Orthopedics & Physiotherapy -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item" data-stage="stage-a" data-aos="fade-up" data-aos-delay="150">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/orthopedics-4.webp" alt="Orthopedics &amp; Physiotherapy" loading="lazy">
+                <span class="stage-tag">Bone, Joint &amp; Rehab</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-person-walking"></i></div>
+                <span class="badge-pill stage-initial">Ortho &amp; Rehab</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Orthopedics &amp; Physiotherapy</h4>
+                <p>Comprehensive bone, joint, spine, and sports medicine paired with hands-on physiotherapy and post-operative rehabilitation.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2"></i><span>Joint pain, fractures &amp; sports injuries</span></li>
+                  <li><i class="bi bi-check2"></i><span>Personalized physical therapy programs</span></li>
+                </ul>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-person-walking"></i> On-Site Rehab</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- 6. Pediatrics & Women's Health -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item" data-stage="stage-c" data-aos="fade-up" data-aos-delay="200">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/pediatrics-2.webp" alt="Pediatrics &amp; Women's Health" loading="lazy">
+                <span class="stage-tag">Women &amp; Children</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-emoji-smile"></i></div>
+                <span class="badge-pill stage-specialist">Family &amp; Maternal</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Pediatrics &amp; OB/GYN</h4>
+                <p>Dedicated child health, infant development, and adolescent care alongside comprehensive obstetrics, prenatal care, and gynecology.</p>
+                <ul class="feature-list">
+                  <li><i class="bi bi-check2"></i><span>Well-child visits &amp; pediatric specialists</span></li>
+                  <li><i class="bi bi-check2"></i><span>Women's wellness, maternity &amp; OB/GYN</span></li>
+                </ul>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-heart"></i> Family-Friendly</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Extra Expandable Specialties -->
+          <div class="col-lg-4 col-md-6 zhg-dept-item zhg-extra-panel" data-stage="stage-a">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/services/services-image5.png" alt="Dermatology &amp; Skin Care" loading="lazy">
+                <span class="stage-tag">Skin &amp; Laser</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-bandaid"></i></div>
+                <span class="badge-pill stage-initial">Outpatient Clinic</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Dermatology</h4>
+                <p>Medical and procedural dermatology for acne, eczema, psoriasis, mole mapping, skin cancer screening, and minor skin surgery.</p>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-check2-circle"></i> Skin Specialists</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 zhg-dept-item zhg-extra-panel" data-stage="stage-a">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/services/services-image6.png" alt="Diabetes &amp; Endocrinology" loading="lazy">
+                <span class="stage-tag">Endocrine &amp; Diet</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-droplet-half"></i></div>
+                <span class="badge-pill stage-initial">Metabolic Care</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Diabetes, Endocrinology &amp; Nutrition</h4>
+                <p>Comprehensive management of diabetes, thyroid disorders, hormonal imbalances, obesity, and medical nutrition therapy.</p>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-check2-circle"></i> Metabolic Clinic</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 zhg-dept-item zhg-extra-panel" data-stage="stage-b">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/laboratory-3.webp" alt="Laboratory &amp; Diagnostic Medicine" loading="lazy">
+                <span class="stage-tag">Lab &amp; Pathology</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-eyedropper"></i></div>
+                <span class="badge-pill stage-specialist">Diagnostics</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Laboratory &amp; Pathology</h4>
+                <p>Clinical biochemistry, hematology, microbiology, histopathology, and rapid diagnostic testing for accurate medical decisions.</p>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-stopwatch"></i> Fast Turnaround</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 zhg-dept-item zhg-extra-panel" data-stage="stage-b">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/facilities-6.webp" alt="Radiology &amp; Diagnostic Imaging" loading="lazy">
+                <span class="stage-tag">Medical Imaging</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-gpu-card"></i></div>
+                <span class="badge-pill stage-specialist">Imaging Suite</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Radiology &amp; Diagnostic Imaging</h4>
+                <p>Digital X-Ray, high-resolution ultrasound, echocardiography, mammography, and coordinated CT &amp; MRI diagnostic services.</p>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-layers"></i> Digital PACS</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 zhg-dept-item zhg-extra-panel" data-stage="stage-d">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/surgery-2.webp" alt="General &amp; Minimally Invasive Surgery" loading="lazy">
+                <span class="stage-tag">Surgical Suites</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-scissors"></i></div>
+                <span class="badge-pill stage-hospital">Surgical Care</span>
+              </div>
+              <div class="card-body-content">
+                <h4>General, Vascular &amp; Day Surgery</h4>
+                <p>Outpatient procedures, endoscopic evaluation, pre-operative assessment, and advanced surgical care across multiple specialties.</p>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-shield-plus"></i> Surgical Safety</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-lg-4 col-md-6 zhg-dept-item zhg-extra-panel" data-stage="stage-d">
+            <article class="shadcn-card h-100">
+              <div class="card-thumb">
+                <img src="assets/img/health/emergency-3.webp" alt="Emergency, Urgent &amp; Critical Care" loading="lazy">
+                <span class="stage-tag">Urgent &amp; Acute</span>
+              </div>
+              <div class="card-header-bar">
+                <div class="icon-box"><i class="bi bi-truck-front"></i></div>
+                <span class="badge-pill stage-hospital">Acute Care</span>
+              </div>
+              <div class="card-body-content">
+                <h4>Urgent, Emergency &amp; Oncology Care</h4>
+                <p>Rapid acute stabilization, urgent medical evaluations, multidisciplinary oncology support, and inpatient hospital care pathways.</p>
+              </div>
+              <div class="card-footer-bar">
+                <span class="meta-text"><i class="bi bi-heart-pulse"></i> Rapid Triage</span>
+                <a href="appointment.html" class="card-link"><span>Book</span><i class="bi bi-arrow-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+        </div><!-- End Bento Grid -->
+
+        <!-- View More / Show Less Toggle Button -->
+        <div class="zhg-expand-wrap">
+          <button type="button" class="zhg-btn-toggle" data-zhg-toggle="#home-dept-grid .zhg-extra-panel" data-more-text="View 6 More Featured Specialties" data-less-text="Show Fewer Specialties">
+            <span class="btn-label">View 6 More Featured Specialties</span>
+            <span class="count-pill">+6</span>
+            <i class="bi bi-chevron-down"></i>
+          </button>
+          <a href="departments.html" class="btn-outline-shadcn">
+            <span>Explore All Medical Departments</span>
+            <i class="bi bi-arrow-up-right"></i>
+          </a>
         </div>
 
       </div>
 
     </section><!-- /Featured Departments Section -->
 
-    <!-- Featured Services Section -->
-    <section id="featured-services" class="featured-services section">
+    <!-- Multi-Specialty Doctors & Executive Leadership Section -->
+    <section id="find-a-doctor" class="find-a-doctor section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Comprehensive Patient Services</h2>
-        <p>Everything you and your loved ones need for prevention, accurate diagnosis, specialist treatment, surgery, and recovery.</p>
+        <h2>Meet Our Founder, Leadership &amp; Multi-Specialty Doctors</h2>
+        <p>Guided by Founder Dr. Sarah (Senior Cardiologist &amp; Heart Surgeon), our executive board, and a diverse team of physicians and surgeons across the United States and Canada.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-stethoscope"></i>
-              </div>
-              <div class="service-content">
-                <h3>Specialist Consultations &amp; Primary Care</h3>
-                <p>Connect directly with board-certified doctors across Cardiology, Neurology, Orthopedics, Pediatrics, Internal Medicine, Women's Health, Dermatology, and Family Medicine—with unhurried appointments focused on listening to you.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i> Same-Week Appointments with Specialist Doctors</li>
-                  <li><i class="fas fa-check-circle"></i> Annual Executive Health &amp; Preventive Checkups</li>
-                  <li><i class="fas fa-check-circle"></i> Chronic Condition, Heart &amp; Diabetes Management</li>
-                </ul>
-                <a href="services.html" class="service-btn">
-                  Explore Specialist Care
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-heartbeat"></i>
-              </div>
-              <div class="service-content">
-                <h3>Advanced Cardiac, Surgical &amp; Procedural Care</h3>
-                <p>Led by renowned surgeons and interventional specialists—including Founder <strong>Dr. Sarah (Cardiologist &amp; Heart Surgeon)</strong>—we provide world-class cardiovascular evaluation, surgical consultations, and minimally invasive procedures.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i> Cardiology, Heart Surgery &amp; Vascular Evaluations</li>
-                  <li><i class="fas fa-check-circle"></i> Orthopedic, General, ENT &amp; Day-Surgery Procedures</li>
-                  <li><i class="fas fa-check-circle"></i> Pre-Operative Assessment &amp; Guided Post-Op Recovery</li>
-                </ul>
-                <a href="services.html" class="service-btn">
-                  Explore Surgical &amp; Heart Services
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-vials"></i>
-              </div>
-              <div class="service-content">
-                <h3>Diagnostic Imaging, Lab Testing &amp; Screening</h3>
-                <p>Accurate treatment starts with rapid, reliable answers. Our diagnostic centres offer comprehensive blood panels, cardiac stress testing, ultrasound, X-ray, CT/MRI coordination, and early disease detection.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i> ECG, Echocardiography &amp; Cardiac Biomarker Testing</li>
-                  <li><i class="fas fa-check-circle"></i> Full Laboratory Bloodwork &amp; Pathology Screening</li>
-                  <li><i class="fas fa-check-circle"></i> Fast Digital Results Reviewed Directly with Your Doctor</li>
-                </ul>
-                <a href="services.html" class="service-btn">
-                  Explore Diagnostic Services
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="fas fa-laptop-medical"></i>
-              </div>
-              <div class="service-content">
-                <h3>Rehabilitation, Physiotherapy &amp; Virtual Telehealth</h3>
-                <p>Restore strength and mobility with personalized physiotherapy and sports rehab, or consult with your Zohran Health Group doctor from the comfort of home anywhere in the United States or Canada.</p>
-                <ul class="service-features">
-                  <li><i class="fas fa-check-circle"></i> Orthopedic, Cardiac &amp; Post-Surgical Physiotherapy</li>
-                  <li><i class="fas fa-check-circle"></i> Secure Video Telehealth Consultations &amp; Prescriptions</li>
-                  <li><i class="fas fa-check-circle"></i> 24/7 Online Appointment Booking &amp; Patient Portal</li>
-                </ul>
-                <a href="appointment.html" class="service-btn">
-                  Book In-Person or Virtual Visit
-                  <i class="fas fa-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div><!-- End Service Card -->
-
+        <!-- Tier 1: Founder & Chairman Spotlight -->
+        <div class="zhg-org-divider" data-aos="fade-up" data-aos-delay="150">
+          <span class="zhg-org-pill founder-pill"><i class="bi bi-award-fill"></i> Founder &amp; Executive Chairmanship</span>
+          <span class="zhg-org-line"></span>
         </div>
 
-      </div>
+        <div class="row g-3" data-aos="fade-up" data-aos-delay="180">
 
-    </section><!-- /Featured Services Section -->
-
-    <!-- Founder & Medical Leadership Spotlight Section -->
-    <section id="find-a-doctor" class="find-a-doctor doctors section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Led by Acclaimed Doctors &amp; Healthcare Visionaries</h2>
-        <p>Founded by Cardiologist &amp; Heart Surgeon Dr. Sarah, Zohran Health Group unites top medical specialists, surgeons, and healthcare leaders across the United States and Canada.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <!-- Featured Founder Profile Card -->
-        <div class="featured-profile mb-4" data-aos="fade-up" data-aos-delay="150">
-          <div class="featured-card">
-            <div class="row g-0 align-items-stretch">
-              <div class="col-lg-5">
-                <div class="featured-media">
-                  <img src="assets/img/leadership/founder-sarah.svg" alt="Dr. Sarah — Founder of Zohran Health Group, Cardiologist & Heart Surgeon" class="img-fluid">
-                  <span class="status-pill">
-                    <i class="bi bi-circle-fill"></i> Founder — Zohran Health Group
-                  </span>
+          <!-- Founder: Dr. Sarah -->
+          <div class="col-lg-6">
+            <article class="clinician-row founder-crown h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-female-2.svg" alt="Dr. Sarah — Founder, Senior Cardiologist &amp; Heart Surgeon" loading="lazy">
+                  <span class="status-dot online" title="Founder &amp; Heart Surgeon"></span>
                 </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="featured-body">
-                  <div class="label-row">
-                    <span class="label-text">Founder &amp; Visionary Leader</span>
-                    <span class="divider-dot"></span>
-                    <span class="label-text muted">Cardiologist &amp; Heart Surgeon</span>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Dr. Sarah</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Founder • Cardiologist &amp; Heart Surgeon</span>
                   </div>
-                  <h3 class="featured-name">Dr. Sarah</h3>
-                  <p class="featured-credentials">Founder, Zohran Health Group • Senior Cardiologist &amp; Heart Surgeon • Multi-Specialty Healthcare Network (USA &amp; Canada)</p>
-                  <blockquote class="featured-quote">
-                    "Every patient deserves world-class care across every area of medicine. While my own clinical passion is cardiology and heart surgery, Zohran Health Group was built so that families across the United States and Canada can access exceptional doctors, surgeons, and specialists in every medical field under one trusted name."
-                  </blockquote>
-                  <div class="badge-stack">
-                    <span class="sh-badge primary">Founder — Zohran Health Group</span>
-                    <span class="sh-badge">Cardiologist &amp; Heart Surgeon</span>
-                    <span class="sh-badge">All Medical &amp; Surgical Specialties</span>
-                    <span class="sh-badge">USA &amp; Canada</span>
-                  </div>
-                  <div class="featured-actions">
-                    <a href="appointment.html" class="sh-btn primary">
-                      Book an Appointment <i class="bi bi-arrow-right"></i>
-                    </a>
-                    <a href="about.html#leadership" class="sh-btn ghost">
-                      <i class="bi bi-people"></i> Meet Our Full Leadership Team
-                    </a>
+                  <p class="specialty">Founder — Zohran Health Group • Senior Cardiologist &amp; Cardiovascular Surgeon</p>
+                  <div class="meta-inline">
+                    <span><i class="bi bi-heart-pulse"></i> Cardiology, Heart Surgery &amp; Multi-Specialty Vision</span>
+                    <span class="dot-sep">•</span>
+                    <span><i class="bi bi-globe-americas"></i> USA &amp; Canada</span>
                   </div>
                 </div>
               </div>
-            </div>
+              <div class="clinician-schedule">
+                <div class="availability-pill available">
+                  <span class="pulse"></span>
+                  Founder &amp; Chief Heart Specialist
+                </div>
+                <span class="next-slot">Leading 38+ Medical &amp; Surgical Specialties</span>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">Full Profile</a>
+                <a href="appointment.html" class="btn-solid-sm">Book Visit <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
           </div>
+
+          <!-- Chairman: Mr. Danish Mushtaq -->
+          <div class="col-lg-6">
+            <article class="clinician-row chairman-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-male-1.svg" alt="Mr. Danish Mushtaq — Chairman" loading="lazy">
+                  <span class="status-dot online" title="Chairman"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Mr. Danish Mushtaq</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Chairman</span>
+                  </div>
+                  <p class="specialty">Chairman of the Board — Zohran Health Group</p>
+                  <div class="meta-inline">
+                    <span><i class="bi bi-building-check"></i> Healthcare Strategy &amp; Institutional Leadership</span>
+                    <span class="dot-sep">•</span>
+                    <span><i class="bi bi-globe-americas"></i> USA &amp; Canada</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clinician-schedule">
+                <div class="availability-pill available">
+                  <span class="pulse"></span>
+                  Board Chairmanship
+                </div>
+                <span class="next-slot">North American Network Expansion</span>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">Leadership</a>
+                <a href="contact.html" class="btn-solid-sm">Connect <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Tier 2: Featured Multi-Specialty Doctors & Surgeons Across Our Network -->
+        <div class="zhg-org-divider" data-aos="fade-up" data-aos-delay="200">
+          <span class="zhg-org-pill directors-pill"><i class="bi bi-hospital"></i> Featured Multi-Specialty Physicians &amp; Surgeons</span>
+          <span class="zhg-org-line"></span>
+        </div>
+
+        <div class="row g-3" data-aos="fade-up" data-aos-delay="220">
+
+          <!-- Specialist 1: Internal & Family Medicine -->
+          <div class="col-lg-6">
+            <article class="clinician-row director-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/health/staff-1.webp" alt="Primary Care &amp; Internal Medicine Specialists" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Primary Care &amp; Internal Medicine Team</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Board-Certified MD / CCFP</span>
+                  </div>
+                  <p class="specialty">Family Medicine, Preventative Care &amp; Complex Adult Medicine</p>
+                  <div class="meta-inline">
+                    <span><i class="bi bi-clipboard2-pulse"></i> Annual Checkups, Chronic Care &amp; Diagnostics</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clinician-schedule">
+                <div class="availability-pill available">
+                  <span class="pulse"></span>
+                  Same-Week Appointments
+                </div>
+                <span class="next-slot">In-Clinic &amp; Virtual Visits</span>
+              </div>
+              <div class="clinician-actions">
+                <a href="departments.html" class="btn-ghost-sm">Department</a>
+                <a href="appointment.html" class="btn-solid-sm">Book <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Specialist 2: Neurology & Orthopedics -->
+          <div class="col-lg-6">
+            <article class="clinician-row director-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/health/staff-3.webp" alt="Neurology, Orthopedics &amp; Rehabilitation Specialists" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Neurology, Orthopedics &amp; Rehab Specialists</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Specialist Physicians &amp; Surgeons</span>
+                  </div>
+                  <p class="specialty">Brain &amp; Spine Care, Joint Reconstruction, Sports Medicine &amp; Physiotherapy</p>
+                  <div class="meta-inline">
+                    <span><i class="bi bi-person-walking"></i> Comprehensive Pain, Mobility &amp; Surgical Care</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clinician-schedule">
+                <div class="availability-pill available">
+                  <span class="pulse"></span>
+                  Accepting Referrals &amp; Direct Visits
+                </div>
+                <span class="next-slot">Multidisciplinary Care</span>
+              </div>
+              <div class="clinician-actions">
+                <a href="departments.html" class="btn-ghost-sm">Department</a>
+                <a href="appointment.html" class="btn-solid-sm">Book <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Specialist 3: Pediatrics & Women's Health -->
+          <div class="col-lg-6">
+            <article class="clinician-row director-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/health/staff-2.webp" alt="Pediatrics &amp; Women's Health Specialists" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Pediatrics, Maternity &amp; Women's Health</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Pediatricians &amp; OB/GYN</span>
+                  </div>
+                  <p class="specialty">Child Wellness, Immunizations, Prenatal Care &amp; Gynecology</p>
+                  <div class="meta-inline">
+                    <span><i class="bi bi-heart"></i> Compassionate Care for Mothers, Infants &amp; Children</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clinician-schedule">
+                <div class="availability-pill available">
+                  <span class="pulse"></span>
+                  Family-Centred Clinics
+                </div>
+                <span class="next-slot">USA &amp; Canada Locations</span>
+              </div>
+              <div class="clinician-actions">
+                <a href="departments.html" class="btn-ghost-sm">Department</a>
+                <a href="appointment.html" class="btn-solid-sm">Book <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Specialist 4: Dermatology, Endocrinology & Diagnostics -->
+          <div class="col-lg-6">
+            <article class="clinician-row director-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/health/staff-4.webp" alt="Dermatology, Endocrinology &amp; Diagnostic Specialists" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Dermatology, Diabetes &amp; Diagnostic Teams</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Medical Specialists</span>
+                  </div>
+                  <p class="specialty">Skin Health, Endocrinology, Clinical Nutrition, Laboratory &amp; Imaging</p>
+                  <div class="meta-inline">
+                    <span><i class="bi bi-eyedropper"></i> Integrated Testing &amp; Personalized Treatment</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clinician-schedule">
+                <div class="availability-pill available">
+                  <span class="pulse"></span>
+                  Outpatient Specialty Clinics
+                </div>
+                <span class="next-slot">Fast Diagnostic Turnaround</span>
+              </div>
+              <div class="clinician-actions">
+                <a href="departments.html" class="btn-ghost-sm">Department</a>
+                <a href="appointment.html" class="btn-solid-sm">Book <i class="bi bi-arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Tier 3: Board of Directors & Executive Leadership -->
+        <div class="zhg-org-divider" data-aos="fade-up" data-aos-delay="230">
+          <span class="zhg-org-pill board-pill"><i class="bi bi-people-fill"></i> Board of Directors &amp; Executive Operations</span>
+          <span class="zhg-org-line"></span>
+        </div>
+
+        <div class="row g-3" data-aos="fade-up" data-aos-delay="240">
+
+          <!-- Sakandar Hayat -->
+          <div class="col-lg-6">
+            <article class="clinician-row board-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-male-sakandar.svg" alt="Sakandar Hayat — Board of Directors" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Sakandar Hayat</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Board of Directors</span>
+                  </div>
+                  <p class="specialty">Board Director — Strategic Governance &amp; Network Growth</p>
+                </div>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">View Bio</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Dr. Laraib Usman -->
+          <div class="col-lg-6">
+            <article class="clinician-row board-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-female-3.svg" alt="Dr. Laraib Usman — Board of Directors" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Dr. Laraib Usman</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Board of Directors</span>
+                  </div>
+                  <p class="specialty">Board Director — Clinical Quality, Medical Ethics &amp; Patient Safety</p>
+                </div>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">View Bio</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Muhammad Yahya -->
+          <div class="col-lg-6">
+            <article class="clinician-row board-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-male-yahya.svg" alt="Muhammad Yahya — Board of Directors" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Muhammad Yahya</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Board of Directors</span>
+                  </div>
+                  <p class="specialty">Board Director — Institutional Stewardship &amp; Operations</p>
+                </div>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">View Bio</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Ms. Emily -->
+          <div class="col-lg-6">
+            <article class="clinician-row board-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-female-emily.svg" alt="Ms. Emily — Board of Directors" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Ms. Emily</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Board of Directors</span>
+                  </div>
+                  <p class="specialty">Board Director — Patient Experience &amp; Community Partnerships</p>
+                </div>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">View Bio</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Dr. Awias Ur Rehman -->
+          <div class="col-lg-6">
+            <article class="clinician-row director-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-male-4.svg" alt="Dr. Awias Ur Rehman — Health Director" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Dr. Awias Ur Rehman</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Health Director</span>
+                  </div>
+                  <p class="specialty">Health Director — Clinical Protocols, Physician Coordination &amp; Care Standards</p>
+                </div>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">View Bio</a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Neil Robert -->
+          <div class="col-lg-6">
+            <article class="clinician-row director-tier h-100">
+              <div class="clinician-Identity">
+                <div class="avatar-wrap">
+                  <img src="assets/img/avatars/avatar-male-neil.svg" alt="Neil Robert — Project Lead" loading="lazy">
+                  <span class="status-dot online"></span>
+                </div>
+                <div class="clinician-info">
+                  <div class="name-line">
+                    <h4>Neil Robert</h4>
+                    <span class="verified-badge"><i class="bi bi-patch-check-fill"></i> Project Lead</span>
+                  </div>
+                  <p class="specialty">Project Lead — Healthcare Infrastructure, Digital Systems &amp; Clinic Delivery</p>
+                </div>
+              </div>
+              <div class="clinician-actions">
+                <a href="about.html" class="btn-ghost-sm">View Bio</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <!-- Directory Footer Bar -->
+        <div class="directory-footer" data-aos="fade-up" data-aos-delay="260">
+          <div class="footer-meta">
+            <span class="meta-indicator"></span>
+            <p class="mb-0">Explore our full Founder Profile, Executive Board, and Multi-Specialty Vision on our About page.</p>
+          </div>
+          <a href="about.html" class="link-all">
+            Meet Our Leadership &amp; Doctors <i class="bi bi-arrow-right"></i>
+          </a>
         </div>
 
       </div>
 
-    </section><!-- /Founder & Medical Leadership Spotlight Section -->
+    </section><!-- /Find A Doctor Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section">
+    <section id="call-to-action" class="call-to-action section light-background">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2 data-aos="fade-up" data-aos-delay="200">Take the Next Step Toward Better Health Today</h2>
-            <p data-aos="fade-up" data-aos-delay="250">Whether you are booking a specialist consultation, seeking a second surgical opinion, scheduling a family checkup, or partnering with our growing healthcare network across the <strong>United States and Canada</strong>, our team is ready to welcome you.</p>
+        <div class="hero-panel" data-aos="fade-up" data-aos-delay="100">
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <div class="panel-content">
+                <span class="badge-pill">
+                  <i class="bi bi-heart-pulse-fill"></i>
+                  <span>Zohran Health Group • United States &amp; Canada</span>
+                </span>
+                <h2>Your Health Deserves World-Class Medical Attention</h2>
+                <p class="lead-text">Whether you are booking a family checkup, seeking a specialist opinion in cardiology, neurology, orthopedics, or pediatrics, or partnering with our growing healthcare network across the US and Canada, our team is ready to welcome you.</p>
 
-            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
-              <a href="appointment.html" class="btn-primary">Book Your Appointment Now</a>
-              <a href="departments.html" class="btn-secondary">Browse Medical Specialties</a>
+                <div class="button-row">
+                  <a href="appointment.html" class="btn-primary-shad">Book Your Appointment Now</a>
+                  <a href="about.html" class="btn-ghost-shad">
+                    <span>About Zohran Health Group</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+
+                <div class="trust-row">
+                  <div class="trust-item">
+                    <i class="bi bi-patch-check"></i>
+                    <span>38 Medical &amp; Surgical Specialties</span>
+                  </div>
+                  <div class="trust-item">
+                    <i class="bi bi-shield-check"></i>
+                    <span>Board-Certified Physicians &amp; Surgeons</span>
+                  </div>
+                  <div class="trust-item">
+                    <i class="bi bi-globe-americas"></i>
+                    <span>Serving USA &amp; Canada</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="panel-visual">
+                <img src="assets/img/health/showcase-5.webp" alt="Zohran Health Group Healthcare Network" class="img-fluid" loading="lazy">
+              </div>
             </div>
           </div>
-        </div>
+        </div><!-- End Hero Panel -->
 
-        <div class="row stats-row" data-aos="fade-up" data-aos-delay="400">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-heart-pulse"></i>
+        <div class="metrics-strip" data-aos="fade-up" data-aos-delay="150">
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-6">
+              <div class="metric-cell">
+                <div class="metric-label">Primary &amp; Preventive Care</div>
+                <div class="metric-value">All Ages</div>
+                <div class="metric-meta">Family &amp; Internal Medicine</div>
               </div>
-              <div class="stat-content">
-                <span class="stat-number">Multi-Specialty</span>
-                <p class="stat-label">Doctors &amp; Surgeons Across All Medical Fields</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="metric-cell">
+                <div class="metric-label">Multi-Specialty Clinics</div>
+                <div class="metric-value">38 Specialties</div>
+                <div class="metric-meta">Heart, Brain, Ortho, Peds &amp; More</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="metric-cell">
+                <div class="metric-label">Diagnostics &amp; Rehab</div>
+                <div class="metric-value">On-Site</div>
+                <div class="metric-meta">Lab, ECG, Imaging &amp; Physiotherapy</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="metric-cell">
+                <div class="metric-label">North American Presence</div>
+                <div class="metric-value">USA &amp; Canada</div>
+                <div class="metric-meta">HIPAA &amp; PIPEDA Protected Care</div>
               </div>
             </div>
           </div>
+        </div><!-- End Metrics Strip -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
+        <div class="specialties-section" data-aos="fade-up" data-aos-delay="200">
+          <div class="specialties-header">
+            <span class="section-eyebrow">Zohran Health Group • Modern Patient Experience</span>
+            <h3>Designed for Comfort, Clinical Precision &amp; Seamless Access</h3>
+          </div>
+
+          <div class="row g-3">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="shad-card h-100" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-head">
+                  <div class="card-icon">
+                    <i class="bi bi-globe-americas"></i>
+                  </div>
+                  <span class="card-tag">USA &amp; Canada</span>
+                </div>
+                <div class="card-body-shad">
+                  <h4>Accessible Multi-Specialty Clinics</h4>
+                  <p>Conveniently located medical centres offering primary care, chronic condition management, specialist consultations, rehabilitation, and diagnostics.</p>
+                </div>
+                <div class="card-foot">
+                  <a href="departments.html" class="card-link">
+                    <span>Explore Specialties</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="shad-card h-100" data-aos="fade-up" data-aos-delay="150">
+                <div class="card-head">
+                  <div class="card-icon">
+                    <i class="bi bi-building-add"></i>
+                  </div>
+                  <span class="card-tag">Modern Suites</span>
+                </div>
+                <div class="card-body-shad">
+                  <h4>Healing Clinical Environment</h4>
+                  <p>Welcoming reception lounges, private acoustic consultation suites, minor procedure rooms, dedicated physiotherapy zones, and barrier-free access.</p>
+                </div>
+                <div class="card-foot">
+                  <a href="gallery.html" class="card-link">
+                    <span>Tour Our Facilities</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="shad-card h-100" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-head">
+                  <div class="card-icon">
+                    <i class="bi bi-hdd-network"></i>
+                  </div>
+                  <span class="card-tag">Digital Health</span>
+                </div>
+                <div class="card-body-shad">
+                  <h4>Connected Electronic Health Records</h4>
+                  <p>Integrated digital health records, online appointment booking, rapid lab &amp; imaging result delivery, and strict HIPAA &amp; PIPEDA privacy protection.</p>
+                </div>
+                <div class="card-foot">
+                  <a href="service-details.html" class="card-link">
+                    <span>Digital Patient Care</span>
+                    <i class="bi bi-arrow-up-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- End Specialties Section -->
+
+        <div class="alert-strip" data-aos="fade-up" data-aos-delay="250">
+          <div class="alert-row">
+            <div class="alert-meta">
+              <div class="alert-icon">
+                <i class="bi bi-calendar2-heart"></i>
+              </div>
+              <div class="alert-text">
+                <span class="alert-eyebrow">Zohran Health Group • Patient Care &amp; Partnerships</span>
+                <h5>Ready to book an appointment for yourself or a loved one?</h5>
+                <p>Our patient care coordinators across the United States and Canada are here to help you find the right specialist.</p>
+              </div>
+            </div>
+            <div class="alert-actions">
+              <a href="appointment.html" class="btn-primary-shad">
                 <i class="bi bi-calendar2-check"></i>
-              </div>
-              <div class="stat-content">
-                <span class="stat-number">Same-Week</span>
-                <p class="stat-label">In-Person &amp; Virtual Specialist Visits</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <div class="stat-content">
-                <span class="stat-number">100%</span>
-                <p class="stat-label">Board-Certified Clinical Excellence</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stat-item">
-              <div class="stat-icon">
-                <i class="bi bi-globe-americas"></i>
-              </div>
-              <div class="stat-content">
-                <span class="stat-number">USA &amp; CA</span>
-                <p class="stat-label">Serving Patients Across North America</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row features-row" data-aos="fade-up" data-aos-delay="500">
-
-          <div class="col-lg-4">
-            <div class="feature-card">
-              <div class="icon-wrapper">
-                <i class="bi bi-heart-pulse-fill"></i>
-              </div>
-              <h5>Cardiology, Surgery &amp; Specialty Care</h5>
-              <p>From heart surgery and neurology to orthopedics, pediatrics, women's health, and internal medicine—find the right specialist for your needs.</p>
-              <a href="departments.html" class="feature-link">
-                <span>View All Departments</span>
-                <i class="bi bi-arrow-right"></i>
+                <span>Book Appointment</span>
               </a>
+              <a href="contact.html" class="btn-outline-shad">Contact Us</a>
             </div>
           </div>
-
-          <div class="col-lg-4">
-            <div class="feature-card">
-              <div class="icon-wrapper">
-                <i class="bi bi-calendar2-plus-fill"></i>
-              </div>
-              <h5>Easy Online Appointment Booking</h5>
-              <p>Request an in-clinic visit, specialist consultation, diagnostic checkup, or virtual telehealth appointment in under two minutes.</p>
-              <a href="appointment.html" class="feature-link">
-                <span>Schedule Appointment</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="feature-card">
-              <div class="icon-wrapper">
-                <i class="bi bi-telephone-inbound-fill"></i>
-              </div>
-              <h5>Dedicated Patient Care Concierge</h5>
-              <p>Have questions about symptoms, specialist referrals, insurance coverage, or US and Canadian clinic locations? Our care team is here to help.</p>
-              <a href="contact.html" class="feature-link">
-                <span>Contact Patient Support</span>
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-
-        </div>
+        </div><!-- End Alert Strip -->
 
       </div>
 
@@ -658,14 +1650,14 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/logo-white.svg?v=7" alt="Zohran Health Group">
+              <img src="assets/img/logo-white.svg?v=8" alt="Zohran Health Group">
             </a>
             <div class="footer-contact pt-3">
               <p><strong>Zohran Health Group</strong></p>
               <p>Premier Multi-Specialty Healthcare &amp; Hospital Network</p>
               <p>Serving Patients Across the United States &amp; Canada</p>
-              <p class="mt-3"><strong>Patient Care:</strong> <span>care@zohranhealth.com</span></p>
-              <p><strong>Appointments:</strong> <span>appointments@zohranhealth.com</span></p>
+              <p class="mt-3"><strong>Patient Care &amp; Inquiries:</strong> <span>care@zohranhealth.com</span></p>
+              <p><strong>Partnerships:</strong> <span>partnerships@zohranhealth.com</span></p>
             </div>
           </div>
 
@@ -676,40 +1668,39 @@
               <li><a href="about.html">About Us</a></li>
               <li><a href="departments.html">Departments</a></li>
               <li><a href="services.html">Medical Services</a></li>
-              <li><a href="about.html#leadership">Our Leadership</a></li>
+              <li><a href="appointment.html">Book Appointment</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Key Specialties</h4>
+            <h4>Core Specialties</h4>
             <ul>
+              <li><a href="departments.html">Family &amp; Internal Medicine</a></li>
               <li><a href="departments.html">Cardiology &amp; Heart Surgery</a></li>
-              <li><a href="departments.html">Neurology &amp; Neurosurgery</a></li>
-              <li><a href="departments.html">Orthopedics &amp; Spine</a></li>
-              <li><a href="departments.html">Pediatrics &amp; Women's Health</a></li>
-              <li><a href="departments.html">Primary &amp; Internal Medicine</a></li>
+              <li><a href="departments.html">Neurology &amp; Orthopedics</a></li>
+              <li><a href="departments.html">Pediatrics &amp; OB/GYN</a></li>
+              <li><a href="departments.html">Dermatology &amp; Diabetes</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Patient Resources</h4>
             <ul>
-              <li><a href="appointment.html">Book an Appointment</a></li>
-              <li><a href="service-details.html">Patient Care Experience</a></li>
-              <li><a href="gallery.html">Modern Facilities</a></li>
-              <li><a href="testimonials.html">Why Choose Us</a></li>
-              <li><a href="faq.html">Patient FAQs</a></li>
+              <li><a href="department-details.html">Care Network &amp; Pathways</a></li>
+              <li><a href="service-details.html">Outpatient &amp; Digital Health</a></li>
+              <li><a href="testimonials.html">Quality &amp; Patient Safety</a></li>
+              <li><a href="faq.html">Patient &amp; Care FAQ</a></li>
+              <li><a href="gallery.html">Medical Facilities Tour</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Connect &amp; Legal</h4>
+            <h4>Trust &amp; Privacy</h4>
             <ul>
-              <li><a href="contact.html">US &amp; Canada Locations</a></li>
-              <li><a href="appointment.html">Specialist Referrals</a></li>
-              <li><a href="department-details.html">Our Medical Network</a></li>
-              <li><a href="terms.html">Terms of Care</a></li>
-              <li><a href="privacy.html">Privacy (HIPAA &amp; PIPEDA)</a></li>
+              <li><a href="privacy.html">HIPAA &amp; PIPEDA Privacy</a></li>
+              <li><a href="terms.html">Patient Charter &amp; Terms</a></li>
+              <li><a href="appointment.html">Physician Partnerships</a></li>
+              <li><a href="contact.html">Locations &amp; Contact</a></li>
             </ul>
           </div>
 
@@ -731,9 +1722,9 @@
 
         <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
           <a href="contact.html" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="contact.html" aria-label="Hospital Locations"><i class="bi bi-hospital"></i></a>
+          <a href="contact.html" aria-label="Hospital Network"><i class="bi bi-hospital"></i></a>
           <a href="appointment.html" aria-label="Book Appointment"><i class="bi bi-calendar2-check"></i></a>
-          <a href="contact.html" aria-label="Email Us"><i class="bi bi-envelope"></i></a>
+          <a href="contact.html" aria-label="Email"><i class="bi bi-envelope"></i></a>
         </div>
 
       </div>
@@ -755,7 +1746,7 @@
   <script src="vendors/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js?v=7"></script>
+  <script src="assets/js/main.js?v=8"></script>
 
 </body>
 
