@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg_avatar_clinician_m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a2239"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="sil_avatar_clinician_m" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="ring_avatar_clinician_m" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Deep Luxury Medical Background -->
+  <rect width="400" height="400" rx="36" fill="url(#bg_avatar_clinician_m)"/>
+
+  <!-- Subtle Geometric Medical Halo -->
+  <circle cx="200" cy="185" r="138" fill="none" stroke="url(#ring_avatar_clinician_m)" stroke-width="2" opacity="0.35"/>
+  <circle cx="200" cy="185" r="112" fill="#ffffff" opacity="0.05"/>
+
+  <!-- Executive Shoulders & Medical Coat Silhouette (Minimalist, Non-Cartoonish) -->
+  <path d="M84 370 C88 286 134 248 200 248 C266 248 312 286 316 370 Z" fill="#f8fafc"/>
+  <path d="M162 249 L200 326 L238 249 Z" fill="#0284c7"/>
+  <path d="M150 250 L200 328 L176 340 L132 268 Z" fill="#e2e8f0"/>
+  <path d="M250 250 L200 328 L224 340 L268 268 Z" fill="#e2e8f0"/>
+
+  <!-- Sculpted Minimalist Portrait Silhouette -->
+  <circle cx="200" cy="166" r="56" fill="url(#sil_avatar_clinician_m)" opacity="0.95"/>
+
+  <!-- Executive Stethoscope / Medical Emblem -->
+  
+        <path d="M158 268 C158 310 176 332 200 332 C224 332 242 310 242 268" fill="none" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="228" cy="318" r="10" fill="#60a5fa" stroke="#ffffff" stroke-width="2.5"/>
+        
+
+  <!-- Top-Right Medical Crest Badge -->
+  <circle cx="332" cy="68" r="24" fill="#071f36" stroke="url(#ring_avatar_clinician_m)" stroke-width="2.5"/>
+  <text x="332" y="75" font-family="'Montserrat', 'Segoe UI', sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">MT</text>
+
+  <!-- Bottom Glassmorphic Title Bar -->
+  <rect x="28" y="344" width="344" height="36" rx="18" fill="#06182c" fill-opacity="0.88" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.2"/>
+  <text x="200" y="367" font-family="'Montserrat', 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1.4">CHAIR OF ORTHOPEDICS</text>
+</svg>
