@@ -9918,3 +9918,268 @@ body {
   margin: 0;
   line-height: 1.45;
 }
+
+
+/*--------------------------------------------------------------
+# ZHG Hero Video Background & Opacity Overlay
+--------------------------------------------------------------*/
+.hero .hero-video-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+  background: #06182c url("../img/health/showcase-1.webp") center center / cover no-repeat;
+}
+
+.hero .hero-bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%) scale(1.03);
+  object-fit: cover;
+  z-index: 1;
+  filter: saturate(1.08) contrast(1.04);
+}
+
+.hero .hero-slider .zhg-video-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: linear-gradient(
+    95deg,
+    rgba(5, 20, 38, 0.88) 0%,
+    rgba(8, 33, 61, 0.78) 52%,
+    rgba(7, 28, 52, 0.64) 100%
+  ) !important;
+  backdrop-filter: blur(1.5px);
+}
+
+/*--------------------------------------------------------------
+# ZHG Awesome Luxury Dark Medical Footer
+--------------------------------------------------------------*/
+.footer.zhg-luxury-footer {
+  background: linear-gradient(180deg, #07192e 0%, #04101f 100%) !important;
+  color: #cbd5e1 !important;
+  border-top: 1px solid rgba(56, 189, 248, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+
+.footer.zhg-luxury-footer::before {
+  content: "";
+  position: absolute;
+  top: -180px;
+  right: -120px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(2, 132, 199, 0.16) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.zhg-footer-ribbon {
+  background: linear-gradient(90deg, rgba(11, 37, 69, 0.95) 0%, rgba(2, 132, 199, 0.25) 100%);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.18);
+  padding: 28px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.zhg-footer-ribbon .ribbon-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.35);
+  flex-shrink: 0;
+}
+
+.zhg-footer-ribbon .ribbon-eyebrow {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #38bdf8;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.zhg-footer-ribbon .ribbon-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff !important;
+}
+
+.zhg-footer-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 22px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 8px 20px rgba(2, 132, 199, 0.3);
+  transition: all 0.25s ease;
+}
+
+.zhg-footer-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 26px rgba(2, 132, 199, 0.45);
+  color: #ffffff !important;
+}
+
+.zhg-footer-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  color: #f8fafc !important;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.zhg-footer-btn-outline:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: #38bdf8;
+  color: #ffffff !important;
+}
+
+.footer.zhg-luxury-footer .footer-top {
+  background: transparent !important;
+  padding: 60px 0 44px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer.zhg-luxury-footer h4 {
+  color: #ffffff !important;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+
+.footer.zhg-luxury-footer h4::after {
+  width: 32px;
+  height: 2.5px;
+  background: linear-gradient(90deg, #38bdf8, #0d9488);
+  border-radius: 2px;
+}
+
+.footer.zhg-luxury-footer .footer-links ul li {
+  padding: 8px 0;
+}
+
+.footer.zhg-luxury-footer .footer-links ul i {
+  color: #38bdf8;
+  font-size: 11px;
+  margin-right: 6px;
+  transition: transform 0.2s ease;
+}
+
+.footer.zhg-luxury-footer .footer-links ul a {
+  color: rgba(226, 232, 240, 0.8) !important;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.footer.zhg-luxury-footer .footer-links ul a:hover {
+  color: #38bdf8 !important;
+  transform: translateX(3px);
+}
+
+.zhg-footer-contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.zhg-footer-contact-cards .contact-pill {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.zhg-footer-contact-cards .contact-pill i {
+  color: #38bdf8;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.zhg-footer-contact-cards .contact-pill strong {
+  display: block;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.zhg-footer-contact-cards .contact-pill span {
+  display: block;
+  color: rgba(226, 232, 240, 0.75);
+  font-size: 12.5px;
+}
+
+.footer.zhg-luxury-footer .copyright {
+  border-top: 1px solid rgba(148, 163, 184, 0.14);
+  padding: 24px 0;
+  background: rgba(2, 8, 18, 0.55);
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.footer.zhg-luxury-footer .credits {
+  color: rgba(148, 163, 184, 0.85);
+  font-size: 12.5px;
+}
+
+.zhg-footer-badges .trust-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.28);
+  color: #e0f2fe;
+}
+
+.footer.zhg-luxury-footer .social-links a {
+  background: rgba(255, 255, 255, 0.08);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  border-radius: 10px;
+  width: 38px;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer.zhg-luxury-footer .social-links a:hover {
+  background: linear-gradient(135deg, #0284c7 0%, #0d9488 100%);
+  color: #ffffff;
+  border-color: transparent;
+  transform: translateY(-2px);
+}

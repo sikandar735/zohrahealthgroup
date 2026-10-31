@@ -31,143 +31,194 @@
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+    <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <img src="assets/img/logo-dark.svg?v=7" alt="Zohran Health Group Logo">
       </a>
 
-              <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="departments.html">Departments</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li class="dropdown"><a href="#"><span>Patient Care</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="appointment.html">Book an Appointment</a></li>
-                <li><a href="index.html#find-a-doctor">Find a Specialist</a></li>
-                <li><a href="department-details.html">Centers of Excellence</a></li>
-                <li><a href="service-details.html">Diagnostic &amp; Surgical Care</a></li>
-                <li><a href="testimonials.html">Patient Stories &amp; Outcomes</a></li>
-                <li><a href="gallery.html">Facilities &amp; Campus Tour</a></li>
-                <li><a href="faq.html">Patient &amp; Insurance FAQ</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="departments.html">Departments</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Patient Care</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="appointment.html">Book an Appointment</a></li>
+              <li><a href="index.html#find-a-doctor">Find a Specialist</a></li>
+              <li><a href="department-details.html">Centers of Excellence</a></li>
+              <li><a href="service-details.html">Diagnostic &amp; Surgical Care</a></li>
+              <li><a href="testimonials.html">Patient Stories &amp; Outcomes</a></li>
+              <li><a href="gallery.html">Facilities &amp; Campus Tour</a></li>
+              <li><a href="faq.html">Patient &amp; Insurance FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-      <a class="btn-getstarted" href="appointment.html">Partner / Book Visit</a>
+      <a class="btn-getstarted" href="appointment.html">Book Appointment</a>
 
     </div>
   </header>
 
   <main class="main">
 
-        <!-- Hero Section -->
+            <!-- Hero Section with Looping Hospital Video Background & Opacity Overlay -->
     <section id="hero" class="hero section">
 
+      <div class="hero-slider hero-video-wrapper">
+        <video class="hero-bg-video" autoplay loop muted playsinline preload="auto" poster="assets/img/health/showcase-1.webp">
+          <source src="assets/video/hospital-hero.mp4" type="video/mp4">
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-doctors-walking-in-a-hospital-corridor-41442-large.mp4" type="video/mp4">
+          <source src="https://cdn.pixabay.com/video/2020/05/25/40130-424930032_large.mp4" type="video/mp4">
+        </video>
+        <div class="slide-overlay zhg-video-overlay"></div>
+      </div><!-- End Hero Video Background -->
+
       <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center g-5">
 
-        <div class="row align-items-center">
-          <div class="col-lg-6">
+          <!-- Left Side Text Regarding Zohran Health Group (ZHG) -->
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="150">
             <div class="hero-content">
-              <div class="trust-badges mb-4" data-aos="fade-right" data-aos-delay="200">
-                <div class="badge-item">
-                  <i class="bi bi-shield-check"></i>
-                  <span>US &amp; Canada Accredited Network</span>
-                </div>
-                <div class="badge-item">
+              <span class="hero-badge">
+                <span class="badge-dot"></span>
+                Zohran Health Group (ZHG) • United States &amp; Canada
+              </span>
+
+              <h1 class="hero-headline">World-Class Multi-Specialty Healthcare Built Around You</h1>
+              <p class="hero-subtext">Zohran Health Group (ZHG) is a premier North American healthcare network uniting 38 specialized medical, surgical, and diagnostic departments across the United States and Canada. Founded by Dr. Sarah, MD, FACC, FRCSC—Senior Cardiologist &amp; Heart Surgeon—ZHG combines compassionate outpatient clinics, advanced surgical centers, and seamless telehealth into one trusted patient experience.</p>
+
+              <div class="action-row">
+                <a href="appointment.html" class="btn btn-solid">Book an Appointment</a>
+                <a href="departments.html" class="btn btn-outline">
                   <i class="bi bi-hospital"></i>
-                  <span>38 Medical &amp; Surgical Specialties</span>
-                </div>
-                <div class="badge-item">
-                  <i class="bi bi-heart-pulse-fill"></i>
-                  <span>Founded by Dr. Sarah, MD, FACC</span>
-                </div>
-              </div>
-
-              <h1 data-aos="fade-right" data-aos-delay="300">
-                World-Class <span class="highlight">Multi-Specialty Healthcare</span> Across the US &amp; Canada
-              </h1>
-
-              <p class="hero-description" data-aos="fade-right" data-aos-delay="400">
-                Welcome to Zohran Health Group—where 38 specialized medical, surgical, and diagnostic departments unite to care for you and your family. From cardiology and heart surgery to oncology, neurology, orthopedics, pediatrics, and primary care, experience seamless in-person and virtual healthcare across North America.
-              </p>
-
-              <div class="hero-stats mb-4" data-aos="fade-right" data-aos-delay="500">
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="38" data-purecounter-duration="2" class="purecounter"></span></h3>
-                  <p>Clinical Specialties</p>
-                </div>
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="250" data-purecounter-duration="2" class="purecounter"></span>+</h3>
-                  <p>Board-Certified Specialists</p>
-                </div>
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="99" data-purecounter-duration="2" class="purecounter"></span>%</h3>
-                  <p>Patient Satisfaction</p>
-                </div>
-              </div>
-
-              <div class="hero-actions" data-aos="fade-right" data-aos-delay="600">
-                <a href="appointment.html" class="btn btn-primary">Book an Appointment</a>
-                <a href="departments.html" class="btn btn-outline ms-2">
-                  <i class="bi bi-grid-3x3-gap me-2"></i>Explore 38 Departments
+                  <span>Explore All 38 Specialties</span>
                 </a>
               </div>
 
-              <div class="emergency-contact" data-aos="fade-right" data-aos-delay="700">
-                <div class="emergency-icon">
-                  <i class="bi bi-telephone-fill"></i>
-                </div>
-                <div class="emergency-info">
-                  <small>24/7 US &amp; Canada Patient Care &amp; Urgent Triage</small>
-                  <strong>+1 (800) 555-ZOHRAN</strong>
-                </div>
-              </div>
+              <ul class="meta-row">
+                <li>
+                  <a href="departments.html" class="meta-link">
+                    <i class="bi bi-check2-circle"></i>
+                    <span>38 Medical &amp; Surgical Departments</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html#doctors" class="meta-link">
+                    <i class="bi bi-shield-check"></i>
+                    <span>Led by Top Board-Certified Specialists</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="services.html" class="meta-link">
+                    <i class="bi bi-globe-americas"></i>
+                    <span>US &amp; Canada Integrated Care Network</span>
+                  </a>
+                </li>
+              </ul>
             </div>
-          </div>
+          </div><!-- End Hero Content -->
 
-          <div class="col-lg-6">
-            <div class="hero-visual" data-aos="fade-left" data-aos-delay="400">
-              <div class="main-image">
-                <img src="assets/img/health/staff-10.webp" alt="Zohran Health Group Multi-Specialty Physicians &amp; Surgeons" class="img-fluid">
-                <div class="floating-card appointment-card">
-                  <div class="card-icon">
-                    <i class="bi bi-calendar-check"></i>
+          <!-- Right Side Glassmorphic ZHG Overview Stack -->
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+            <div class="info-stack">
+
+              <div class="info-card emergency-card">
+                <div class="card-icon">
+                  <i class="bi bi-globe-americas"></i>
+                </div>
+                <div class="card-meta">
+                  <span class="card-label">Cross-Border Healthcare Network</span>
+                  <span class="card-value">United States &amp; Canada</span>
+                </div>
+                <a href="about.html" class="card-action" aria-label="About Zohran Health Group">
+                  <i class="bi bi-arrow-up-right"></i>
+                </a>
+              </div><!-- End Emergency Card -->
+
+              <div class="info-card stats-card">
+                <div class="stat-cell">
+                  <span class="stat-number">38</span>
+                  <span class="stat-label">Clinical Specialties</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-cell">
+                  <span class="stat-number">24/7</span>
+                  <span class="stat-label">Patient Care Support</span>
+                </div>
+              </div><!-- End Stats Card -->
+
+              <div class="info-card review-card">
+                <div class="review-header">
+                  <div class="review-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
                   </div>
-                  <div class="card-content">
-                    <h6>Same-Week Specialist Visits</h6>
-                    <p>In-Person &amp; Telehealth</p>
-                    <small>Across US &amp; Canadian Hubs</small>
+                  <span class="review-score">Patient-First Excellence</span>
+                </div>
+                <p class="review-quote">"At Zohran Health Group, every specialty—from heart surgery, neurology, and oncology to pediatrics, orthopedics, and family medicine—works together as one team for your health."</p>
+                <div class="review-author">
+                  <span class="author-avatar">
+                    <img src="assets/img/logo-emblem.svg?v=7" alt="Zohran Health Group Emblem" loading="lazy">
+                  </span>
+                  <div class="author-info">
+                    <span class="author-name">Dr. Sarah, MD, FACC, FRCSC</span>
+                    <span class="author-role">Founder • Senior Cardiologist &amp; Heart Surgeon</span>
                   </div>
                 </div>
-                <div class="floating-card rating-card">
-                  <div class="card-content">
-                    <div class="rating-stars">
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                      <i class="bi bi-star-fill"></i>
-                    </div>
-                    <h6>38 Specialties</h6>
-                    <small>Heart • Cancer • Neuro • Ortho • Peds</small>
-                  </div>
-                </div>
-              </div>
-              <div class="background-elements">
-                <div class="element element-1"></div>
-                <div class="element element-2"></div>
-                <div class="element element-3"></div>
-              </div>
+              </div><!-- End Review Card -->
+
+            </div>
+          </div><!-- End Info Stack -->
+
+        </div>
+
+        <div class="metrics-bar" data-aos="fade-up" data-aos-delay="300">
+          <div class="metric-item">
+            <div class="metric-icon">
+              <i class="bi bi-hospital"></i>
+            </div>
+            <div class="metric-text">
+              <span class="metric-number">38 Specialties</span>
+              <span class="metric-label">Comprehensive Medical &amp; Surgical Care</span>
             </div>
           </div>
-        </div>
+          <div class="metric-item">
+            <div class="metric-icon">
+              <i class="bi bi-heart-pulse"></i>
+            </div>
+            <div class="metric-text">
+              <span class="metric-number">Multi-Specialty</span>
+              <span class="metric-label">Heart, Cancer, Neuro, Ortho &amp; Family Care</span>
+            </div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-icon">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <div class="metric-text">
+              <span class="metric-number">8 Core Values</span>
+              <span class="metric-label">Safety, Empathy &amp; Clinical Excellence</span>
+            </div>
+          </div>
+          <div class="metric-item">
+            <div class="metric-icon">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="metric-text">
+              <span class="metric-number">US &amp; Canada</span>
+              <span class="metric-label">In-Person Clinics &amp; Virtual Telehealth</span>
+            </div>
+          </div>
+        </div><!-- End Metrics Bar -->
 
       </div>
 
@@ -184,10 +235,10 @@
               <i class="bi bi-shield-check"></i>
               About Zohran Health Group
             </span>
-            <h2 class="display-heading">Disciplined Phased Development from Outpatient Centre to Hospital Network</h2>
+            <h2 class="display-heading">Compassionate Multi-Specialty Care Across Every Stage of Your Health Journey</h2>
           </div>
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="150">
-            <p class="intro-copy">Zohran Health Group is envisioned as a modern, patient-focused healthcare organization committed to delivering accessible, ethical, safe and high-quality medical services. Rather than beginning with an overly large facility, the project launches with a right-sized outpatient medical centre and scales progressively with demand and licensing.</p>
+            <p class="intro-copy">Zohran Health Group (ZHG) is a modern, patient-focused healthcare institution delivering accessible, ethical, safe, and world-class medical care across the United States and Canada. Our integrated network connects primary care, advanced diagnostics, and 38 medical and surgical specialties under one roof.</p>
           </div>
         </div><!-- End Heading Block -->
 
@@ -1654,126 +1705,141 @@
 
   </main>
 
-    <footer id="footer" class="footer-16 footer position-relative">
+      <footer id="footer" class="footer dark-background zhg-luxury-footer">
 
-    <div class="container">
-
-      <div class="footer-main" data-aos="fade-up" data-aos-delay="100">
-        <div class="row align-items-start">
-
-          <div class="col-lg-5">
-            <div class="brand-section">
-              <a href="index.html" class="logo d-flex align-items-center mb-4">
-                <span class="sitename">Zohran Health Group</span>
+    <!-- Top Executive Patient Care & Cross-Border Ribbon -->
+    <div class="zhg-footer-ribbon">
+      <div class="container">
+        <div class="row align-items-center gy-3">
+          <div class="col-lg-7">
+            <div class="d-flex align-items-center gap-3">
+              <div class="ribbon-icon">
+                <i class="bi bi-heart-pulse-fill"></i>
+              </div>
+              <div>
+                <span class="ribbon-eyebrow">24/7 US &amp; CANADA PATIENT CARE COORDINATION</span>
+                <h3 class="ribbon-title mb-0">Need a Specialist Consultation or Second Opinion?</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 text-lg-end">
+            <div class="d-flex flex-wrap gap-2 justify-content-lg-end">
+              <a href="appointment.html" class="zhg-footer-btn-primary">
+                <i class="bi bi-calendar2-check me-2"></i>Book an Appointment
               </a>
-              <p class="brand-description">Delivering compassionate, world-class multi-specialty healthcare across the United States and Canada—uniting 38 specialized medical and surgical departments under one patient-first network.</p>
+              <a href="contact.html" class="zhg-footer-btn-outline">
+                <i class="bi bi-telephone-outbound me-2"></i>+1 (800) 555-ZOHRAN
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-              <div class="contact-info mt-5">
-                <div class="contact-item">
-                  <i class="bi bi-geo-alt"></i>
-                  <span>Multi-Specialty Medical Campuses &amp; Telehealth Network Across the US &amp; Canada</span>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo-white.svg?v=7" alt="Zohran Health Group">
+            </a>
+            <p class="mt-3 mb-3" style="color: rgba(226, 232, 240, 0.85); line-height: 1.7;">
+              Zohran Health Group (ZHG) is a premier patient-centered healthcare organization uniting <strong>38 specialized medical, surgical, and diagnostic departments</strong> across the United States and Canada. Founded by <strong>Dr. Sarah, MD, FACC, FRCSC</strong>, we deliver compassionate, world-class care for every stage of life.
+            </p>
+            <div class="zhg-footer-contact-cards">
+              <div class="contact-pill">
+                <i class="bi bi-geo-alt-fill"></i>
+                <div>
+                  <strong>US &amp; Canada Care Network</strong>
+                  <span>Outpatient Centres, Specialty Clinics &amp; Hospital Campuses</span>
                 </div>
-                <div class="contact-item">
-                  <i class="bi bi-telephone"></i>
-                  <span>+1 (800) 555-ZOHRAN • 24/7 Patient Coordination</span>
-                </div>
-                <div class="contact-item">
-                  <i class="bi bi-envelope"></i>
-                  <span>care@zohranhealth.com</span>
+              </div>
+              <div class="contact-pill">
+                <i class="bi bi-envelope-check-fill"></i>
+                <div>
+                  <strong>Patient Concierge &amp; Referrals</strong>
+                  <span>care@zohranhealth.com • +1 (800) 555-ZOHRAN</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-7">
-            <div class="footer-nav-wrapper">
-              <div class="row">
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Quick Navigation</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html">About ZHG</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="about.html#doctors">Founder &amp; Leadership</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="departments.html">All 38 Departments</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="services.html">Clinical Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Locations &amp; Contact</a></li>
+            </ul>
+          </div>
 
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>About Us</h6>
-                    <nav class="footer-nav">
-                      <a href="about.html">Our Vision &amp; Mission</a>
-                      <a href="about.html#doctors">Founder &amp; Leadership</a>
-                      <a href="testimonials.html">Patient Stories</a>
-                      <a href="gallery.html">Hospital Facilities</a>
-                      <a href="contact.html">Locations &amp; Contact</a>
-                    </nav>
-                  </div>
-                </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Centers of Excellence</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="department-details.html">Heart &amp; Vascular Surgery</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="department-details.html">Oncology &amp; Cancer Care</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="department-details.html">Neurology &amp; Neurosurgery</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="department-details.html">Orthopedics &amp; Spine</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="department-details.html">Pediatrics &amp; Women's Health</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="department-details.html">Family &amp; Internal Medicine</a></li>
+            </ul>
+          </div>
 
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Departments</h6>
-                    <nav class="footer-nav">
-                      <a href="departments.html">All 38 Specialties</a>
-                      <a href="department-details.html">Heart &amp; Vascular</a>
-                      <a href="department-details.html">Neurology &amp; Spine</a>
-                      <a href="department-details.html">Oncology &amp; Cancer Care</a>
-                      <a href="department-details.html">Orthopedics &amp; Pediatrics</a>
-                    </nav>
-                  </div>
-                </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Patient Resources</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="appointment.html">Online Appointment</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="index.html#find-a-doctor">Find a Specialist</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="service-details.html">Diagnostics &amp; Imaging</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="testimonials.html">Patient Stories</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="gallery.html">Campus &amp; Facility Tour</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="faq.html">Insurance &amp; Billing FAQ</a></li>
+            </ul>
+          </div>
 
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Patient Services</h6>
-                    <nav class="footer-nav">
-                      <a href="services.html">Clinical Services</a>
-                      <a href="service-details.html">Diagnostics &amp; Imaging</a>
-                      <a href="appointment.html">Book an Appointment</a>
-                      <a href="index.html#find-a-doctor">Find a Specialist</a>
-                      <a href="faq.html">Insurance &amp; Billing FAQ</a>
-                    </nav>
-                  </div>
-                </div>
-
-                <div class="col-6 col-lg-3">
-                  <div class="nav-column">
-                    <h6>Patient Support</h6>
-                    <nav class="footer-nav">
-                      <a href="appointment.html">Virtual Telehealth</a>
-                      <a href="appointment.html">Second Opinions</a>
-                      <a href="contact.html">US &amp; Canada Travel Care</a>
-                      <a href="privacy.html">Privacy Policy</a>
-                      <a href="terms.html">Terms of Service</a>
-                    </nav>
-                  </div>
-                </div>
-
-              </div>
-            </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Standards &amp; Trust</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="privacy.html">HIPAA Privacy (USA)</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="privacy.html">PIPEDA Privacy (Canada)</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="terms.html">Patient Rights &amp; Terms</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="appointment.html">Telehealth Portal</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contact.html">International Concierge</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="contact.html">Media &amp; Partnerships</a></li>
+            </ul>
           </div>
 
         </div>
       </div>
-
     </div>
 
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="bottom-content" data-aos="fade-up" data-aos-delay="300">
-          <div class="row align-items-center">
+    <div class="copyright">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center gap-3">
 
-            <div class="col-lg-6">
-              <div class="copyright">
-                <p>© <span class="sitename">Zohran Health Group</span>. All rights reserved. Serving patients across the United States &amp; Canada.</p>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="legal-links">
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="terms.html">Terms of Service</a>
-                <a href="faq.html">Patient FAQ</a>
-                <div class="credits">
-                  Multi-Specialty Healthcare Network
-                </div>
-              </div>
-            </div>
-
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            &copy; Copyright <strong><span>Zohran Health Group (ZHG)</span></strong>. All Rights Reserved.
+          </div>
+          <div class="credits">
+            Accredited Multi-Specialty Healthcare &amp; Hospital Network — Serving Patients Across the United States &amp; Canada
           </div>
         </div>
+
+        <div class="zhg-footer-badges d-flex flex-wrap align-items-center gap-2">
+          <span class="trust-pill"><i class="bi bi-shield-fill-check me-1"></i> HIPAA &amp; PIPEDA Compliant</span>
+          <span class="trust-pill"><i class="bi bi-hospital-fill me-1"></i> 38 Specialties</span>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-2 mb-lg-0">
+          <a href="contact.html" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="contact.html" aria-label="Hospital Network"><i class="bi bi-hospital"></i></a>
+          <a href="appointment.html" aria-label="Schedule Appointment"><i class="bi bi-calendar2-check"></i></a>
+          <a href="contact.html" aria-label="Email Patient Care"><i class="bi bi-envelope"></i></a>
+        </div>
+
       </div>
     </div>
 
